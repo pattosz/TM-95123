@@ -1,0 +1,21 @@
+# Log Files
+*.log
+
+#Temporary Files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Virtual environments
+venv/
+env/
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+_pychace__/
+*.pyc
