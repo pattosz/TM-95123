@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  appium:
+    image: appium/appium
+    container_name: appium_server
+    ports:
+      - "4723:4723"  
+    volumes:
+      - /dev/shm:/dev/shm 
+    environment:
+      - APPIUM_PLATFORM_NAME=Android  
+      - APPIUM_PLATFORM_VERSION=10  
+      - APPIUM_DEVICE_NAME=AndroidEmulator  
+      - APPIUM_APP=/path/to/your/app.apk  
+    restart: always
