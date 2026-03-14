@@ -1,0 +1,20 @@
+[
+    {
+        "class": "Other",
+        "count": 645,
+        "CDI_percent": 57.1,
+        "risk": "HIGH"
+    },
+    {
+        "class": "Button",
+        "count": 19,
+        "CDI_percent": 1.7,
+        "risk": "LOW"
+    },
+    {
+        "class": "Unknown",
+        "count": 465,
+        "CDI_percent": 41.2,
+        "risk": "LOW"
+    }
+]
