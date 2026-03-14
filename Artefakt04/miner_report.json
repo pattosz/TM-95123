@@ -1,4848 +1,3322 @@
 [
     {
         "file": "abc_action_bar_title_item.xml",
-        "id": "action_bar_title"
+        "id": "action_bar_title",
+        "tag": "TextView"
     },
     {
         "file": "abc_action_bar_title_item.xml",
-        "id": "action_bar_subtitle"
+        "id": "action_bar_subtitle",
+        "tag": "TextView"
     },
     {
         "file": "abc_action_mode_close_item_material.xml",
         "id": "action_mode_close_button",
-        "accessibility": "@string/abc_action_mode_done"
+        "tag": "ImageView"
     },
     {
         "file": "abc_activity_chooser_view.xml",
-        "id": "activity_chooser_view_content"
+        "id": "activity_chooser_view_content",
+        "tag": "view"
     },
     {
         "file": "abc_activity_chooser_view.xml",
-        "id": "expand_activities_button"
+        "id": "expand_activities_button",
+        "tag": "FrameLayout"
     },
     {
         "file": "abc_activity_chooser_view.xml",
-        "id": "image"
+        "id": "image",
+        "tag": "ImageView"
     },
     {
         "file": "abc_activity_chooser_view.xml",
-        "id": "default_activity_button"
+        "id": "default_activity_button",
+        "tag": "FrameLayout"
     },
     {
         "file": "abc_activity_chooser_view.xml",
-        "id": "image"
+        "id": "image",
+        "tag": "ImageView"
     },
     {
         "file": "abc_activity_chooser_view_list_item.xml",
-        "id": "list_item"
+        "id": "list_item",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_activity_chooser_view_list_item.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "abc_activity_chooser_view_list_item.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_alert_dialog_button_bar_material.xml",
-        "id": "buttonPanel"
+        "id": "buttonPanel",
+        "tag": "ScrollView"
     },
     {
         "file": "abc_alert_dialog_button_bar_material.xml",
-        "id": "button3"
+        "id": "button3",
+        "tag": "Button"
     },
     {
         "file": "abc_alert_dialog_button_bar_material.xml",
-        "id": "spacer"
+        "id": "spacer",
+        "tag": "android.widget.Space"
     },
     {
         "file": "abc_alert_dialog_button_bar_material.xml",
-        "id": "button2"
+        "id": "button2",
+        "tag": "Button"
     },
     {
         "file": "abc_alert_dialog_button_bar_material.xml",
-        "id": "button1"
+        "id": "button1",
+        "tag": "Button"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "parentPanel"
+        "id": "parentPanel",
+        "tag": "androidx.appcompat.widget.AlertDialogLayout"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "contentPanel"
+        "id": "contentPanel",
+        "tag": "FrameLayout"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "scrollIndicatorUp"
+        "id": "scrollIndicatorUp",
+        "tag": "View"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "scrollView"
+        "id": "scrollView",
+        "tag": "androidx.core.widget.NestedScrollView"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "textSpacerNoTitle"
+        "id": "textSpacerNoTitle",
+        "tag": "android.widget.Space"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "message"
+        "id": "message",
+        "tag": "TextView"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "textSpacerNoButtons"
+        "id": "textSpacerNoButtons",
+        "tag": "android.widget.Space"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "scrollIndicatorDown"
+        "id": "scrollIndicatorDown",
+        "tag": "View"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "customPanel"
+        "id": "customPanel",
+        "tag": "FrameLayout"
     },
     {
         "file": "abc_alert_dialog_material.xml",
-        "id": "custom"
+        "id": "custom",
+        "tag": "FrameLayout"
     },
     {
         "file": "abc_alert_dialog_title_material.xml",
-        "id": "topPanel"
+        "id": "topPanel",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_alert_dialog_title_material.xml",
-        "id": "title_template"
+        "id": "title_template",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_alert_dialog_title_material.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "abc_alert_dialog_title_material.xml",
-        "id": "alertTitle"
+        "id": "alertTitle",
+        "tag": "androidx.appcompat.widget.DialogTitle"
     },
     {
         "file": "abc_alert_dialog_title_material.xml",
-        "id": "titleDividerNoCustom"
+        "id": "titleDividerNoCustom",
+        "tag": "android.widget.Space"
     },
     {
         "file": "abc_cascading_menu_item_layout.xml",
-        "id": "group_divider"
+        "id": "group_divider",
+        "tag": "ImageView"
     },
     {
         "file": "abc_cascading_menu_item_layout.xml",
-        "id": "content"
+        "id": "content",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_cascading_menu_item_layout.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_cascading_menu_item_layout.xml",
-        "id": "shortcut"
+        "id": "shortcut",
+        "tag": "TextView"
     },
     {
         "file": "abc_cascading_menu_item_layout.xml",
-        "id": "submenuarrow"
+        "id": "submenuarrow",
+        "tag": "ImageView"
     },
     {
         "file": "abc_dialog_title_material.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_expanded_menu_layout.xml",
-        "id": "expanded_menu"
+        "id": "expanded_menu",
+        "tag": "androidx.appcompat.view.menu.ExpandedMenuView"
     },
     {
         "file": "abc_list_menu_item_checkbox.xml",
-        "id": "checkbox"
+        "id": "checkbox",
+        "tag": "CheckBox"
     },
     {
         "file": "abc_list_menu_item_icon.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "abc_list_menu_item_layout.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_list_menu_item_layout.xml",
-        "id": "shortcut"
+        "id": "shortcut",
+        "tag": "TextView"
     },
     {
         "file": "abc_list_menu_item_radio.xml",
-        "id": "radio"
+        "id": "radio",
+        "tag": "RadioButton"
     },
     {
         "file": "abc_popup_menu_header_item_layout.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_popup_menu_item_layout.xml",
-        "id": "group_divider"
+        "id": "group_divider",
+        "tag": "ImageView"
     },
     {
         "file": "abc_popup_menu_item_layout.xml",
-        "id": "content"
+        "id": "content",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_popup_menu_item_layout.xml",
-        "id": "title"
+        "id": "title",
+        "tag": "TextView"
     },
     {
         "file": "abc_popup_menu_item_layout.xml",
-        "id": "shortcut"
+        "id": "shortcut",
+        "tag": "TextView"
     },
     {
         "file": "abc_popup_menu_item_layout.xml",
-        "id": "submenuarrow"
+        "id": "submenuarrow",
+        "tag": "ImageView"
     },
     {
         "file": "abc_screen_content_include.xml",
-        "id": "action_bar_activity_content"
+        "id": "action_bar_activity_content",
+        "tag": "androidx.appcompat.widget.ContentFrameLayout"
     },
     {
         "file": "abc_screen_simple.xml",
-        "id": "action_bar_root"
+        "id": "action_bar_root",
+        "tag": "androidx.appcompat.widget.FitWindowsLinearLayout"
     },
     {
         "file": "abc_screen_simple.xml",
-        "id": "action_mode_bar_stub"
+        "id": "action_mode_bar_stub",
+        "tag": "androidx.appcompat.widget.ViewStubCompat"
     },
     {
         "file": "abc_screen_simple_overlay_action_mode.xml",
-        "id": "action_bar_root"
+        "id": "action_bar_root",
+        "tag": "androidx.appcompat.widget.FitWindowsFrameLayout"
     },
     {
         "file": "abc_screen_simple_overlay_action_mode.xml",
-        "id": "action_mode_bar_stub"
+        "id": "action_mode_bar_stub",
+        "tag": "androidx.appcompat.widget.ViewStubCompat"
     },
     {
         "file": "abc_screen_toolbar.xml",
-        "id": "decor_content_parent"
+        "id": "decor_content_parent",
+        "tag": "androidx.appcompat.widget.ActionBarOverlayLayout"
     },
     {
         "file": "abc_screen_toolbar.xml",
-        "id": "action_bar_container"
+        "id": "action_bar_container",
+        "tag": "androidx.appcompat.widget.ActionBarContainer"
     },
     {
         "file": "abc_screen_toolbar.xml",
-        "id": "action_bar"
+        "id": "action_bar",
+        "tag": "androidx.appcompat.widget.Toolbar"
     },
     {
         "file": "abc_screen_toolbar.xml",
-        "id": "action_context_bar"
+        "id": "action_context_bar",
+        "tag": "androidx.appcompat.widget.ActionBarContextView"
     },
     {
         "file": "abc_search_dropdown_item_icons_2line.xml",
-        "id": "icon1"
+        "id": "icon1",
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_dropdown_item_icons_2line.xml",
-        "id": "edit_query"
+        "id": "edit_query",
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_dropdown_item_icons_2line.xml",
-        "id": "icon2"
+        "id": "icon2",
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_dropdown_item_icons_2line.xml",
-        "id": "text2"
+        "id": "text2",
+        "tag": "TextView"
     },
     {
         "file": "abc_search_dropdown_item_icons_2line.xml",
-        "id": "text1"
+        "id": "text1",
+        "tag": "TextView"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_bar"
+        "id": "search_bar",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_badge"
+        "id": "search_badge",
+        "tag": "TextView"
     },
     {
         "file": "abc_search_view.xml",
         "id": "search_button",
-        "accessibility": "@string/abc_searchview_description_search"
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_edit_frame"
+        "id": "search_edit_frame",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_mag_icon"
+        "id": "search_mag_icon",
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_plate"
+        "id": "search_plate",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "search_src_text"
+        "id": "search_src_text",
+        "tag": "view"
     },
     {
         "file": "abc_search_view.xml",
         "id": "search_close_btn",
-        "accessibility": "@string/abc_searchview_description_clear"
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_view.xml",
-        "id": "submit_area"
+        "id": "submit_area",
+        "tag": "LinearLayout"
     },
     {
         "file": "abc_search_view.xml",
         "id": "search_go_btn",
-        "accessibility": "@string/abc_searchview_description_submit"
+        "tag": "ImageView"
     },
     {
         "file": "abc_search_view.xml",
         "id": "search_voice_btn",
-        "accessibility": "@string/abc_searchview_description_voice"
+        "tag": "ImageView"
     },
     {
         "file": "abc_select_dialog_material.xml",
-        "id": "select_dialog_listview"
+        "id": "select_dialog_listview",
+        "tag": "view"
     },
     {
         "file": "abc_tooltip.xml",
-        "id": "message"
-    },
-    {
-        "file": "accessibility_node_provider.xml",
-        "accessibility": "@string/accessibility_node_provider_instructions"
+        "id": "message",
+        "tag": "TextView"
     },
     {
         "file": "accessibility_service.xml",
-        "accessibility": "@string/accessibility_service_instructions"
-    },
-    {
-        "file": "accessibility_service.xml",
-        "id": "button"
+        "id": "button",
+        "tag": "ImageButton"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_home_as_up",
-        "accessibility": "@string/toggle_home_as_up"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_show_home",
-        "accessibility": "@string/toggle_show_home"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_use_logo",
-        "accessibility": "@string/toggle_use_logo"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_show_title",
-        "accessibility": "@string/toggle_show_title"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_show_custom",
-        "accessibility": "@string/toggle_show_custom"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "toggle_navigation",
-        "accessibility": "@string/toggle_navigation"
+        "tag": "Button"
     },
     {
         "file": "action_bar_display_options.xml",
         "id": "cycle_custom_gravity",
-        "accessibility": "@string/cycle_custom_gravity"
-    },
-    {
-        "file": "action_bar_display_options_custom.xml",
-        "accessibility": "@string/display_options_custom_button"
+        "tag": "Button"
     },
     {
         "file": "action_bar_settings_action_provider.xml",
-        "id": "button"
+        "id": "button",
+        "tag": "ImageButton"
     },
     {
         "file": "action_bar_tabs.xml",
-        "id": "fragment_content"
+        "id": "fragment_content",
+        "tag": "FrameLayout"
     },
     {
         "file": "action_bar_tabs.xml",
         "id": "btn_add_tab",
-        "accessibility": "@string/btn_add_tab"
+        "tag": "Button"
     },
     {
         "file": "action_bar_tabs.xml",
         "id": "btn_remove_tab",
-        "accessibility": "@string/btn_remove_tab"
+        "tag": "Button"
     },
     {
         "file": "action_bar_tabs.xml",
         "id": "btn_toggle_tabs",
-        "accessibility": "@string/btn_toggle_tabs"
+        "tag": "Button"
     },
     {
         "file": "action_bar_tabs.xml",
         "id": "btn_remove_all_tabs",
-        "accessibility": "@string/btn_remove_all_tabs"
+        "tag": "Button"
     },
     {
         "file": "action_bar_tab_content.xml",
-        "id": "text"
-    },
-    {
-        "file": "activity_animation.xml",
-        "accessibility": "@string/activity_animation_msg"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "activity_animation.xml",
         "id": "fade_animation",
-        "accessibility": "@string/activity_animation_fade"
+        "tag": "Button"
     },
     {
         "file": "activity_animation.xml",
         "id": "zoom_animation",
-        "accessibility": "@string/activity_animation_zoom"
+        "tag": "Button"
     },
     {
         "file": "activity_animation.xml",
         "id": "modern_fade_animation",
-        "accessibility": "@string/activity_modern_animation_fade"
+        "tag": "Button"
     },
     {
         "file": "activity_animation.xml",
         "id": "modern_zoom_animation",
-        "accessibility": "@string/activity_modern_animation_zoom"
+        "tag": "Button"
     },
     {
         "file": "activity_animation.xml",
         "id": "scale_up_animation",
-        "accessibility": "@string/activity_scale_up_animation"
+        "tag": "Button"
     },
     {
         "file": "activity_animation.xml",
         "id": "zoom_thumbnail_animation",
-        "accessibility": "@string/activity_zoom_thumbnail_animation"
+        "tag": "Button"
     },
     {
         "file": "activity_finish_affinity.xml",
-        "accessibility": "No matter how deep you go, Activity.finishAffinity() will get you back."
-    },
-    {
-        "file": "activity_finish_affinity.xml",
-        "id": "seq"
+        "id": "seq",
+        "tag": "TextView"
     },
     {
         "file": "activity_finish_affinity.xml",
         "id": "nest",
-        "accessibility": "Nest some more"
+        "tag": "Button"
     },
     {
         "file": "activity_finish_affinity.xml",
         "id": "finish",
-        "accessibility": "FINISH!"
-    },
-    {
-        "file": "activity_recreate.xml",
-        "accessibility": "@string/activity_recreate_msg"
+        "tag": "Button"
     },
     {
         "file": "activity_recreate.xml",
         "id": "recreate",
-        "accessibility": "@string/recreate"
-    },
-    {
-        "file": "alarm_controller.xml",
-        "accessibility": "@string/alarm_controller"
+        "tag": "Button"
     },
     {
         "file": "alarm_controller.xml",
         "id": "one_shot",
-        "accessibility": "@string/one_shot_alarm"
+        "tag": "Button"
     },
     {
         "file": "alarm_controller.xml",
         "id": "start_repeating",
-        "accessibility": "@string/start_repeating_alarm"
+        "tag": "Button"
     },
     {
         "file": "alarm_controller.xml",
         "id": "stop_repeating",
-        "accessibility": "@string/stop_repeating_alarm"
-    },
-    {
-        "file": "alarm_service.xml",
-        "accessibility": "@string/alarm_service"
+        "tag": "Button"
     },
     {
         "file": "alarm_service.xml",
         "id": "start_alarm",
-        "accessibility": "@string/start_alarm_service"
+        "tag": "Button"
     },
     {
         "file": "alarm_service.xml",
         "id": "stop_alarm",
-        "accessibility": "@string/stop_alarm_service"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
-        "id": "screen"
+        "id": "screen",
+        "tag": "ScrollView"
     },
     {
         "file": "alert_dialog.xml",
         "id": "two_buttons",
-        "accessibility": "@string/alert_dialog_two_buttons"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "two_buttons2",
-        "accessibility": "@string/alert_dialog_two_buttons2"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "two_buttons2ultra",
-        "accessibility": "@string/alert_dialog_two_buttons2ultra"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "select_button",
-        "accessibility": "@string/alert_dialog_select_button"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "progress_button",
-        "accessibility": "@string/alert_dialog_progress_button"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "radio_button",
-        "accessibility": "@string/alert_dialog_single_choice"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "checkbox_button",
-        "accessibility": "@string/alert_dialog_multi_choice"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "checkbox_button2",
-        "accessibility": "@string/alert_dialog_multi_choice_cursor"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "text_entry_button",
-        "accessibility": "@string/alert_dialog_text_entry"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "two_buttons_old_school",
-        "accessibility": "@string/alert_dialog_two_buttons_old_school"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog.xml",
         "id": "two_buttons_holo_light",
-        "accessibility": "@string/alert_dialog_two_buttons_holo_light"
+        "tag": "Button"
     },
     {
         "file": "alert_dialog_text_entry.xml",
         "id": "username_view",
-        "accessibility": "@string/alert_dialog_username"
+        "tag": "TextView"
     },
     {
         "file": "alert_dialog_text_entry.xml",
-        "id": "username_edit"
+        "id": "username_edit",
+        "tag": "EditText"
     },
     {
         "file": "alert_dialog_text_entry.xml",
         "id": "password_view",
-        "accessibility": "@string/alert_dialog_password"
+        "tag": "TextView"
     },
     {
         "file": "alert_dialog_text_entry.xml",
-        "id": "password_edit"
+        "id": "password_edit",
+        "tag": "EditText"
     },
     {
         "file": "animations_main_screen.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "FrameLayout"
     },
     {
         "file": "animations_main_screen.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "animations_main_screen.xml",
-        "id": "picture"
+        "id": "picture",
+        "tag": "ImageView"
     },
     {
         "file": "animation_1.xml",
-        "accessibility": "@string/animation_1_instructions"
-    },
-    {
-        "file": "animation_1.xml",
-        "id": "pw"
+        "id": "pw",
+        "tag": "EditText"
     },
     {
         "file": "animation_1.xml",
         "id": "login",
-        "accessibility": "@string/googlelogin_login"
+        "tag": "Button"
     },
     {
         "file": "animation_2.xml",
-        "id": "flipper"
+        "id": "flipper",
+        "tag": "ViewFlipper"
     },
     {
         "file": "animation_2.xml",
-        "accessibility": "@string/animation_2_text_1"
-    },
-    {
-        "file": "animation_2.xml",
-        "accessibility": "@string/animation_2_text_2"
-    },
-    {
-        "file": "animation_2.xml",
-        "accessibility": "@string/animation_2_text_3"
-    },
-    {
-        "file": "animation_2.xml",
-        "accessibility": "@string/animation_2_text_4"
-    },
-    {
-        "file": "animation_2.xml",
-        "accessibility": "@string/animation_2_instructions"
-    },
-    {
-        "file": "animation_2.xml",
-        "id": "spinner"
+        "id": "spinner",
+        "tag": "Spinner"
     },
     {
         "file": "animation_3.xml",
         "id": "target",
-        "accessibility": "@string/animation_3_text"
+        "tag": "TextView"
     },
     {
         "file": "animation_3.xml",
-        "accessibility": "@string/animation_2_instructions"
-    },
-    {
-        "file": "animation_3.xml",
-        "id": "spinner"
+        "id": "spinner",
+        "tag": "Spinner"
     },
     {
         "file": "animation_cloning.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_cloning.xml",
         "id": "startButton",
-        "accessibility": "Run"
+        "tag": "Button"
     },
     {
         "file": "animation_custom_evaluator.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_custom_evaluator.xml",
         "id": "startButton",
-        "accessibility": "Play"
+        "tag": "Button"
     },
     {
         "file": "animation_loading.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_loading.xml",
         "id": "startButton",
-        "accessibility": "Run"
+        "tag": "Button"
     },
     {
         "file": "animation_multi_property.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_multi_property.xml",
         "id": "startButton",
-        "accessibility": "Run"
+        "tag": "Button"
     },
     {
         "file": "animation_reversing.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_reversing.xml",
         "id": "startButton",
-        "accessibility": "Play"
+        "tag": "Button"
     },
     {
         "file": "animation_reversing.xml",
         "id": "reverseButton",
-        "accessibility": "Reverse"
+        "tag": "Button"
     },
     {
         "file": "animation_seeking.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animation_seeking.xml",
         "id": "startButton",
-        "accessibility": "Run"
+        "tag": "Button"
     },
     {
         "file": "animation_seeking.xml",
-        "id": "seekBar"
+        "id": "seekBar",
+        "tag": "SeekBar"
     },
     {
         "file": "animator_custom_evaluator.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animator_custom_evaluator.xml",
         "id": "startButton",
-        "accessibility": "Play"
+        "tag": "Button"
     },
     {
         "file": "animator_events.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "animator_events.xml",
         "id": "startButton",
-        "accessibility": "Play"
+        "tag": "Button"
     },
     {
         "file": "animator_events.xml",
         "id": "cancelButton",
-        "accessibility": "Cancel"
+        "tag": "Button"
     },
     {
         "file": "animator_events.xml",
         "id": "endButton",
-        "accessibility": "End"
+        "tag": "Button"
     },
     {
         "file": "animator_events.xml",
         "id": "endCB",
-        "accessibility": "End Immediately"
-    },
-    {
-        "file": "animator_events.xml",
-        "accessibility": "Sequencer Events:   "
+        "tag": "CheckBox"
     },
     {
         "file": "animator_events.xml",
         "id": "startText",
-        "accessibility": "Start   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "repeatText",
-        "accessibility": "Repeat   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "cancelText",
-        "accessibility": "Cancel   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "endText",
-        "accessibility": "End"
-    },
-    {
-        "file": "animator_events.xml",
-        "accessibility": "Animator Events:   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "startTextAnimator",
-        "accessibility": "Start   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "repeatTextAnimator",
-        "accessibility": "Repeat   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "cancelTextAnimator",
-        "accessibility": "Cancel   "
+        "tag": "TextView"
     },
     {
         "file": "animator_events.xml",
         "id": "endTextAnimator",
-        "accessibility": "End"
+        "tag": "TextView"
     },
     {
         "file": "appwidget_configure.xml",
-        "accessibility": "@string/appwidget_configure_instructions"
-    },
-    {
-        "file": "appwidget_configure.xml",
-        "id": "appwidget_prefix"
+        "id": "appwidget_prefix",
+        "tag": "EditText"
     },
     {
         "file": "appwidget_configure.xml",
         "id": "save_button",
-        "accessibility": "@android:string/ok"
+        "tag": "Button"
     },
     {
         "file": "appwidget_provider.xml",
-        "id": "appwidget_text"
+        "id": "appwidget_text",
+        "tag": "TextView"
     },
     {
         "file": "autocomplete_1.xml",
-        "accessibility": "@string/autocomplete_1_instructions"
-    },
-    {
-        "file": "autocomplete_1.xml",
-        "accessibility": "@string/autocomplete_1_country"
-    },
-    {
-        "file": "autocomplete_1.xml",
-        "id": "edit"
-    },
-    {
-        "file": "autocomplete_1.xml",
-        "accessibility": "@string/autocomplete_1_focus"
+        "id": "edit",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_2.xml",
-        "accessibility": "@string/autocomplete_2_focus"
-    },
-    {
-        "file": "autocomplete_2.xml",
-        "accessibility": "@string/autocomplete_2_country"
-    },
-    {
-        "file": "autocomplete_2.xml",
-        "id": "edit"
+        "id": "edit",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_1"
+        "id": "edit",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_2"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_3"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_4"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_5"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_6"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_7"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_8"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_1"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_2"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_3"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_4"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_5"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_6"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_7"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button_8"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_country"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "id": "edit"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_button"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "accessibility": "@string/autocomplete_3_country"
-    },
-    {
-        "file": "autocomplete_3.xml",
-        "id": "edit2"
+        "id": "edit2",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_4.xml",
-        "accessibility": "@string/autocomplete_4_instructions"
-    },
-    {
-        "file": "autocomplete_4.xml",
-        "accessibility": "@string/autocomplete_4_name"
-    },
-    {
-        "file": "autocomplete_4.xml",
-        "id": "edit"
-    },
-    {
-        "file": "autocomplete_4.xml",
-        "accessibility": "@string/autocomplete_4_message"
+        "id": "edit",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_5.xml",
-        "accessibility": "@string/autocomplete_5_instructions"
-    },
-    {
-        "file": "autocomplete_5.xml",
-        "accessibility": "@string/autocomplete_5_name"
-    },
-    {
-        "file": "autocomplete_5.xml",
-        "id": "edit"
+        "id": "edit",
+        "tag": "AutoCompleteTextView"
     },
     {
         "file": "autocomplete_6.xml",
-        "accessibility": "@string/autocomplete_7_instructions"
-    },
-    {
-        "file": "autocomplete_6.xml",
-        "accessibility": "@string/autocomplete_7_country"
-    },
-    {
-        "file": "autocomplete_6.xml",
-        "id": "edit"
-    },
-    {
-        "file": "autocomplete_6.xml",
-        "accessibility": "@string/autocomplete_7_focus"
-    },
-    {
-        "file": "baseline_1.xml",
-        "accessibility": "@string/baseline_1_label"
-    },
-    {
-        "file": "baseline_1.xml",
-        "accessibility": "@string/baseline_1_button"
-    },
-    {
-        "file": "baseline_1.xml",
-        "accessibility": "@string/baseline_1_bigger"
-    },
-    {
-        "file": "baseline_2.xml",
-        "accessibility": "@string/baseline_2_label"
-    },
-    {
-        "file": "baseline_2.xml",
-        "accessibility": "@string/baseline_2_button"
-    },
-    {
-        "file": "baseline_2.xml",
-        "accessibility": "@string/baseline_2_bigger"
-    },
-    {
-        "file": "baseline_3.xml",
-        "accessibility": "@string/baseline_3_explanation"
-    },
-    {
-        "file": "baseline_3.xml",
-        "accessibility": "@string/baseline_3_label"
-    },
-    {
-        "file": "baseline_3.xml",
-        "accessibility": "@string/baseline_3_button"
-    },
-    {
-        "file": "baseline_3.xml",
-        "accessibility": "@string/baseline_3_bigger"
-    },
-    {
-        "file": "baseline_4.xml",
-        "accessibility": "@string/baseline_4_label"
-    },
-    {
-        "file": "baseline_4.xml",
-        "accessibility": "@string/baseline_4_button"
-    },
-    {
-        "file": "baseline_4.xml",
-        "accessibility": "@string/baseline_4_bigger"
-    },
-    {
-        "file": "baseline_4.xml",
-        "accessibility": "@string/baseline_4_label_2"
-    },
-    {
-        "file": "baseline_4.xml",
-        "accessibility": "@string/baseline_4_label_3"
+        "id": "edit",
+        "tag": "MultiAutoCompleteTextView"
     },
     {
         "file": "baseline_6.xml",
         "id": "anchor",
-        "accessibility": "@string/baseline_6_multi_line"
-    },
-    {
-        "file": "baseline_6.xml",
-        "accessibility": "@string/baseline_6_baseline"
+        "tag": "EditText"
     },
     {
         "file": "baseline_7.xml",
         "id": "anchor",
-        "accessibility": "@string/baseline_7_fat"
-    },
-    {
-        "file": "baseline_7.xml",
-        "accessibility": "@string/baseline_7_lean"
-    },
-    {
-        "file": "baseline_nested_1.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_1.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_1.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_1.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_2.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_2.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_2.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_2.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_3.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_3.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_3.xml",
-        "accessibility": "@string/baseline_nested_1_label"
-    },
-    {
-        "file": "baseline_nested_3.xml",
-        "accessibility": "@string/baseline_nested_1_label"
+        "tag": "TextView"
     },
     {
         "file": "bouncing_balls.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "buttons_1.xml",
         "id": "button_normal",
-        "accessibility": "@string/buttons_1_normal"
+        "tag": "Button"
     },
     {
         "file": "buttons_1.xml",
         "id": "button_small",
-        "accessibility": "@string/buttons_1_small"
+        "tag": "Button"
     },
     {
         "file": "buttons_1.xml",
         "id": "button_toggle",
-        "accessibility": "@string/buttons_1_toggle"
+        "tag": "ToggleButton"
     },
     {
         "file": "chronometer.xml",
-        "id": "chronometer"
+        "id": "chronometer",
+        "tag": "Chronometer"
     },
     {
         "file": "chronometer.xml",
         "id": "start",
-        "accessibility": "@string/chronometer_start"
+        "tag": "Button"
     },
     {
         "file": "chronometer.xml",
         "id": "stop",
-        "accessibility": "@string/chronometer_stop"
+        "tag": "Button"
     },
     {
         "file": "chronometer.xml",
         "id": "reset",
-        "accessibility": "@string/chronometer_reset"
+        "tag": "Button"
     },
     {
         "file": "chronometer.xml",
         "id": "set_format",
-        "accessibility": "@string/chronometer_set_format"
+        "tag": "Button"
     },
     {
         "file": "chronometer.xml",
         "id": "clear_format",
-        "accessibility": "@string/chronometer_clear_format"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
         "id": "copy_styled_text",
-        "accessibility": "@string/copy_text"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
-        "id": "styled_text"
+        "id": "styled_text",
+        "tag": "TextView"
     },
     {
         "file": "clipboard.xml",
         "id": "copy_plain_text",
-        "accessibility": "@string/copy_text"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
-        "id": "plain_text"
+        "id": "plain_text",
+        "tag": "TextView"
     },
     {
         "file": "clipboard.xml",
         "id": "copy_html_text",
-        "accessibility": "@string/copy_text"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
-        "id": "html_text"
+        "id": "html_text",
+        "tag": "TextView"
     },
     {
         "file": "clipboard.xml",
         "id": "copy_intent",
-        "accessibility": "@string/copy_intent"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
         "id": "copy_uri",
-        "accessibility": "@string/copy_uri"
+        "tag": "Button"
     },
     {
         "file": "clipboard.xml",
-        "accessibility": "Data type: "
+        "id": "clip_type",
+        "tag": "Spinner"
     },
     {
         "file": "clipboard.xml",
-        "id": "clip_type"
+        "id": "clip_mime_types",
+        "tag": "TextView"
     },
     {
         "file": "clipboard.xml",
-        "accessibility": "MIME types: "
-    },
-    {
-        "file": "clipboard.xml",
-        "id": "clip_mime_types"
-    },
-    {
-        "file": "clipboard.xml",
-        "accessibility": "Data content:"
-    },
-    {
-        "file": "clipboard.xml",
-        "id": "clip_text"
-    },
-    {
-        "file": "contacts_filter.xml",
-        "accessibility": "@string/contacts_filter"
+        "id": "clip_text",
+        "tag": "TextView"
     },
     {
         "file": "contacts_filter.xml",
         "id": "go",
-        "accessibility": "@string/go"
+        "tag": "Button"
     },
     {
         "file": "content_browser.xml",
-        "id": "content"
+        "id": "content",
+        "tag": "view"
     },
     {
         "file": "content_browser.xml",
         "id": "title",
-        "accessibility": "A title goes here"
+        "tag": "TextView"
     },
     {
         "file": "content_browser.xml",
-        "id": "seekbar"
+        "id": "seekbar",
+        "tag": "SeekBar"
     },
     {
         "file": "controls_1.xml",
         "id": "button",
-        "accessibility": "@string/controls_1_save"
+        "tag": "Button"
     },
     {
         "file": "controls_1.xml",
         "id": "button_disabled",
-        "accessibility": "@string/controls_1_save"
+        "tag": "Button"
     },
     {
         "file": "controls_1.xml",
-        "id": "edit"
+        "id": "edit",
+        "tag": "EditText"
     },
     {
         "file": "controls_1.xml",
-        "id": "edit2"
+        "id": "edit2",
+        "tag": "EditText"
     },
     {
         "file": "controls_1.xml",
         "id": "check1",
-        "accessibility": "@string/controls_1_checkbox_1"
+        "tag": "CheckBox"
     },
     {
         "file": "controls_1.xml",
         "id": "check2",
-        "accessibility": "@string/controls_1_checkbox_2"
+        "tag": "CheckBox"
     },
     {
         "file": "controls_1.xml",
         "id": "radio1",
-        "accessibility": "@string/controls_1_radiobutton_1"
+        "tag": "RadioButton"
     },
     {
         "file": "controls_1.xml",
         "id": "radio2",
-        "accessibility": "@string/controls_1_radiobutton_2"
+        "tag": "RadioButton"
     },
     {
         "file": "controls_1.xml",
         "id": "star",
-        "accessibility": "@string/controls_1_star"
+        "tag": "CheckBox"
     },
     {
         "file": "controls_1.xml",
-        "id": "toggle1"
+        "id": "toggle1",
+        "tag": "ToggleButton"
     },
     {
         "file": "controls_1.xml",
-        "id": "toggle2"
+        "id": "toggle2",
+        "tag": "ToggleButton"
     },
     {
         "file": "controls_1.xml",
-        "id": "spinner1"
-    },
-    {
-        "file": "controls_1.xml",
-        "accessibility": "@string/textColorPrimary"
-    },
-    {
-        "file": "controls_1.xml",
-        "accessibility": "@string/textColorSecondary"
-    },
-    {
-        "file": "controls_1.xml",
-        "accessibility": "@string/textColorTertiary"
-    },
-    {
-        "file": "controls_1.xml",
-        "accessibility": "@string/listSeparatorTextViewStyle"
-    },
-    {
-        "file": "controls_1.xml",
-        "accessibility": "(And all inside of a ScrollView!)"
+        "id": "spinner1",
+        "tag": "Spinner"
     },
     {
         "file": "custom_dialog_activity.xml",
         "id": "text",
-        "accessibility": "@string/custom_dialog_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "custom_picker_1.xml",
-        "id": "numberPicker1"
+        "id": "numberPicker1",
+        "tag": "NumberPicker"
     },
     {
         "file": "custom_picker_1.xml",
-        "id": "textView1"
+        "id": "textView1",
+        "tag": "TextView"
     },
     {
         "file": "custom_title.xml",
-        "id": "screen"
+        "id": "screen",
+        "tag": "LinearLayout"
     },
     {
         "file": "custom_title.xml",
         "id": "left_text_edit",
-        "accessibility": "@string/custom_title_left"
+        "tag": "EditText"
     },
     {
         "file": "custom_title.xml",
         "id": "left_text_button",
-        "accessibility": "@string/custom_title_left_button"
+        "tag": "Button"
     },
     {
         "file": "custom_title.xml",
         "id": "right_text_edit",
-        "accessibility": "@string/custom_title_right"
+        "tag": "EditText"
     },
     {
         "file": "custom_title.xml",
         "id": "right_text_button",
-        "accessibility": "@string/custom_title_right_button"
+        "tag": "Button"
     },
     {
         "file": "custom_title_1.xml",
-        "id": "screen"
+        "id": "screen",
+        "tag": "RelativeLayout"
     },
     {
         "file": "custom_title_1.xml",
         "id": "left_text",
-        "accessibility": "@string/custom_title_left"
+        "tag": "TextView"
     },
     {
         "file": "custom_title_1.xml",
         "id": "right_text",
-        "accessibility": "@string/custom_title_right"
-    },
-    {
-        "file": "custom_view_accessibility.xml",
-        "accessibility": "@string/accessibility_custom_view_instructions"
+        "tag": "TextView"
     },
     {
         "file": "date_widgets_example_1.xml",
         "id": "dateDisplay",
-        "accessibility": "@string/date_widgets_example_dateDisplay_text"
+        "tag": "TextView"
     },
     {
         "file": "date_widgets_example_1.xml",
         "id": "pickDate",
-        "accessibility": "@string/date_widgets_example_pickDate_text"
+        "tag": "Button"
     },
     {
         "file": "date_widgets_example_1.xml",
         "id": "pickTime",
-        "accessibility": "@string/date_widgets_example_pickTime_text"
+        "tag": "Button"
     },
     {
         "file": "date_widgets_example_1.xml",
         "id": "pickTimeSpinner",
-        "accessibility": "@string/date_widgets_example_pickTime_spinner_text"
+        "tag": "Button"
     },
     {
         "file": "date_widgets_example_2.xml",
-        "id": "timePicker"
+        "id": "timePicker",
+        "tag": "TimePicker"
     },
     {
         "file": "date_widgets_example_2.xml",
         "id": "dateDisplay",
-        "accessibility": "@string/date_widgets_example_dateDisplay_text"
+        "tag": "TextView"
     },
     {
         "file": "dialog_activity.xml",
         "id": "text",
-        "accessibility": "@string/dialog_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "dialog_activity.xml",
-        "id": "inner_content"
+        "id": "inner_content",
+        "tag": "LinearLayout"
     },
     {
         "file": "dialog_activity.xml",
         "id": "add",
-        "accessibility": "@string/dialog_activity_add"
+        "tag": "Button"
     },
     {
         "file": "dialog_activity.xml",
         "id": "remove",
-        "accessibility": "@string/dialog_activity_remove"
+        "tag": "Button"
     },
     {
         "file": "drag_layout.xml",
         "id": "drag_explanation",
-        "accessibility": "@string/drag_explanation"
+        "tag": "TextView"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_dot_1"
+        "id": "drag_dot_1",
+        "tag": "io.appium.android.apis.view.DraggableDot"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_dot_2"
+        "id": "drag_dot_2",
+        "tag": "io.appium.android.apis.view.DraggableDot"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_dot_3"
+        "id": "drag_dot_3",
+        "tag": "io.appium.android.apis.view.DraggableDot"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_dot_hidden"
+        "id": "drag_dot_hidden",
+        "tag": "io.appium.android.apis.view.DraggableDot"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_result_text"
+        "id": "drag_result_text",
+        "tag": "TextView"
     },
     {
         "file": "drag_layout.xml",
-        "id": "drag_text"
+        "id": "drag_text",
+        "tag": "TextView"
     },
     {
         "file": "external_storage.xml",
-        "id": "layout"
+        "id": "layout",
+        "tag": "LinearLayout"
     },
     {
         "file": "external_storage_item.xml",
-        "id": "label"
+        "id": "label",
+        "tag": "TextView"
     },
     {
         "file": "external_storage_item.xml",
-        "id": "path"
+        "id": "path",
+        "tag": "TextView"
     },
     {
         "file": "external_storage_item.xml",
         "id": "create",
-        "accessibility": "@string/create"
+        "tag": "Button"
     },
     {
         "file": "external_storage_item.xml",
         "id": "delete",
-        "accessibility": "@string/delete"
+        "tag": "Button"
     },
     {
         "file": "focus_1.xml",
         "id": "txtStatus",
-        "accessibility": "@string/focus_1_message"
+        "tag": "TextView"
     },
     {
         "file": "focus_1.xml",
-        "id": "rssListView"
+        "id": "rssListView",
+        "tag": "ListView"
     },
     {
         "file": "focus_1.xml",
-        "id": "rssWebView"
-    },
-    {
-        "file": "focus_1.xml",
-        "accessibility": "@string/focus_1_placeholder"
+        "id": "rssWebView",
+        "tag": "WebView"
     },
     {
         "file": "focus_2.xml",
         "id": "leftButton",
-        "accessibility": "@string/focus_2_left"
+        "tag": "Button"
     },
     {
         "file": "focus_2.xml",
         "id": "centerButton",
-        "accessibility": "@string/focus_2_jump"
+        "tag": "Button"
     },
     {
         "file": "focus_2.xml",
         "id": "rightButton",
-        "accessibility": "@string/focus_2_right"
+        "tag": "Button"
     },
     {
         "file": "focus_3.xml",
         "id": "top",
-        "accessibility": "@string/focus_3_top"
+        "tag": "Button"
     },
     {
         "file": "focus_3.xml",
         "id": "right",
-        "accessibility": "@string/focus_3_right"
+        "tag": "Button"
     },
     {
         "file": "focus_3.xml",
         "id": "bottom",
-        "accessibility": "@string/focus_3_bottom"
+        "tag": "Button"
     },
     {
         "file": "focus_3.xml",
         "id": "left",
-        "accessibility": "@string/focus_3_left"
+        "tag": "Button"
     },
     {
         "file": "focus_5.xml",
         "id": "button1",
-        "accessibility": "@string/focus_5_button1"
+        "tag": "Button"
     },
     {
         "file": "focus_5.xml",
         "id": "button2",
-        "accessibility": "@string/focus_5_button2"
+        "tag": "Button"
     },
     {
         "file": "focus_5.xml",
         "id": "button3",
-        "accessibility": "@string/focus_5_button3"
+        "tag": "Button"
     },
     {
         "file": "focus_5.xml",
         "id": "button4",
-        "accessibility": "@string/focus_5_button4"
+        "tag": "Button"
     },
     {
         "file": "focus_5.xml",
         "id": "button5",
-        "accessibility": "@string/focus_5_button5"
+        "tag": "Button"
     },
     {
         "file": "foreground_dispatch.xml",
-        "id": "text"
-    },
-    {
-        "file": "foreground_service_controller.xml",
-        "accessibility": "@string/foreground_service_controller"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "foreground_service_controller.xml",
         "id": "start_foreground",
-        "accessibility": "@string/start_service_foreground"
+        "tag": "Button"
     },
     {
         "file": "foreground_service_controller.xml",
         "id": "start_background",
-        "accessibility": "@string/start_service_background"
+        "tag": "Button"
     },
     {
         "file": "foreground_service_controller.xml",
         "id": "stop",
-        "accessibility": "@string/stop_service"
-    },
-    {
-        "file": "forwarding.xml",
-        "accessibility": "@string/forwarding"
+        "tag": "Button"
     },
     {
         "file": "forwarding.xml",
         "id": "go",
-        "accessibility": "@string/go"
-    },
-    {
-        "file": "forward_target.xml",
-        "accessibility": "@string/forward_target"
+        "tag": "Button"
     },
     {
         "file": "fragment_arguments.xml",
         "id": "text",
-        "accessibility": "@string/fragment_arguments_msg"
+        "tag": "TextView"
     },
     {
         "file": "fragment_arguments.xml",
-        "id": "embedded"
+        "id": "embedded",
+        "tag": "fragment"
     },
     {
         "file": "fragment_arguments.xml",
-        "id": "created"
+        "id": "created",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_arguments_fragment.xml",
         "id": "text",
-        "accessibility": "@string/fragment_arguments_fragment_msg"
+        "tag": "TextView"
     },
     {
         "file": "fragment_arguments_fragment.xml",
-        "id": "created1"
+        "id": "created1",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_arguments_fragment.xml",
-        "id": "created2"
-    },
-    {
-        "file": "fragment_context_menu.xml",
-        "accessibility": "@string/fragment_context_menu_msg"
+        "id": "created2",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_context_menu.xml",
         "id": "long_press",
-        "accessibility": "@string/long_press"
+        "tag": "Button"
     },
     {
         "file": "fragment_dialog.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "fragment_dialog.xml",
         "id": "show",
-        "accessibility": "@string/show"
+        "tag": "Button"
     },
     {
         "file": "fragment_dialog_or_activity.xml",
         "id": "text",
-        "accessibility": "@string/fragment_dialog_or_activity_msg"
+        "tag": "TextView"
     },
     {
         "file": "fragment_dialog_or_activity.xml",
         "id": "show_dialog",
-        "accessibility": "@string/show"
+        "tag": "Button"
     },
     {
         "file": "fragment_dialog_or_activity.xml",
         "id": "inline_text",
-        "accessibility": "@string/fragment_dialog_or_activity_inline"
+        "tag": "TextView"
     },
     {
         "file": "fragment_dialog_or_activity.xml",
-        "id": "embedded"
-    },
-    {
-        "file": "fragment_hide_show.xml",
-        "accessibility": "Demonstration of hiding and showing fragments."
+        "id": "embedded",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_hide_show.xml",
         "id": "frag1hide",
-        "accessibility": "Hide"
+        "tag": "Button"
     },
     {
         "file": "fragment_hide_show.xml",
-        "id": "fragment1"
+        "id": "fragment1",
+        "tag": "fragment"
     },
     {
         "file": "fragment_hide_show.xml",
         "id": "frag2hide",
-        "accessibility": "Hide"
+        "tag": "Button"
     },
     {
         "file": "fragment_hide_show.xml",
-        "id": "fragment2"
+        "id": "fragment2",
+        "tag": "fragment"
     },
     {
         "file": "fragment_layout.xml",
-        "id": "titles"
-    },
-    {
-        "file": "fragment_menu.xml",
-        "accessibility": "@string/fragment_menu_msg"
+        "id": "titles",
+        "tag": "fragment"
     },
     {
         "file": "fragment_menu.xml",
         "id": "menu1",
-        "accessibility": "@string/fragment1menu"
+        "tag": "CheckBox"
     },
     {
         "file": "fragment_menu.xml",
         "id": "menu2",
-        "accessibility": "@string/fragment2menu"
+        "tag": "CheckBox"
     },
     {
         "file": "fragment_retain_instance.xml",
-        "accessibility": "@string/fragment_retain_instance_msg"
-    },
-    {
-        "file": "fragment_retain_instance.xml",
-        "id": "progress_horizontal"
+        "id": "progress_horizontal",
+        "tag": "ProgressBar"
     },
     {
         "file": "fragment_retain_instance.xml",
         "id": "restart",
-        "accessibility": "@string/restart"
+        "tag": "Button"
     },
     {
         "file": "fragment_stack.xml",
-        "id": "simple_fragment"
+        "id": "simple_fragment",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_stack.xml",
         "id": "new_fragment",
-        "accessibility": "@string/new_fragment"
+        "tag": "Button"
     },
     {
         "file": "fragment_stack.xml",
         "id": "delete_fragment",
-        "accessibility": "@string/delete_fragment"
+        "tag": "Button"
     },
     {
         "file": "fragment_tabs_fragment.xml",
-        "id": "tabhost"
+        "id": "tabhost",
+        "tag": "TabHost"
     },
     {
         "file": "fragment_tabs_fragment.xml",
-        "id": "tabs"
+        "id": "tabs",
+        "tag": "TabWidget"
     },
     {
         "file": "fragment_tabs_fragment.xml",
-        "id": "tabcontent"
+        "id": "tabcontent",
+        "tag": "FrameLayout"
     },
     {
         "file": "fragment_tabs_fragment.xml",
-        "id": "realtabcontent"
+        "id": "realtabcontent",
+        "tag": "FrameLayout"
     },
     {
         "file": "gallery_1.xml",
-        "id": "layout2"
+        "id": "layout2",
+        "tag": "LinearLayout"
     },
     {
         "file": "gallery_1.xml",
-        "id": "gallery"
+        "id": "gallery",
+        "tag": "Gallery"
     },
     {
         "file": "gallery_1.xml",
         "id": "EditText01",
-        "accessibility": "@id/EditText01"
+        "tag": "EditText"
     },
     {
         "file": "gallery_2.xml",
-        "accessibility": "@string/gallery_2_text"
-    },
-    {
-        "file": "gallery_2.xml",
-        "id": "gallery"
+        "id": "gallery",
+        "tag": "Gallery"
     },
     {
         "file": "game_controller_input.xml",
         "id": "description",
-        "accessibility": "@string/game_controller_input_description"
+        "tag": "TextView"
     },
     {
         "file": "game_controller_input.xml",
-        "id": "summary"
+        "id": "summary",
+        "tag": "ListView"
     },
     {
         "file": "game_controller_input.xml",
-        "id": "game"
+        "id": "game",
+        "tag": "io.appium.android.apis.view.GameView"
     },
     {
         "file": "game_controller_input_text_column.xml",
-        "id": "label"
+        "id": "label",
+        "tag": "TextView"
     },
     {
         "file": "game_controller_input_text_column.xml",
-        "id": "content"
+        "id": "content",
+        "tag": "TextView"
     },
     {
         "file": "google_login.xml",
         "id": "login",
-        "accessibility": "@string/googlelogin_login"
+        "tag": "Button"
     },
     {
         "file": "google_login.xml",
         "id": "bad_login",
-        "accessibility": "@string/googlelogin_bad_login"
+        "tag": "Button"
     },
     {
         "file": "google_login.xml",
         "id": "clear",
-        "accessibility": "@string/googlelogin_clear"
+        "tag": "Button"
     },
     {
         "file": "google_login.xml",
         "id": "username_label",
-        "accessibility": "@string/googlelogin_user"
+        "tag": "TextView"
     },
     {
         "file": "google_login.xml",
         "id": "username",
-        "accessibility": "@string/google_login_username_text"
+        "tag": "TextView"
     },
     {
         "file": "grid_1.xml",
-        "id": "myGrid"
+        "id": "myGrid",
+        "tag": "GridView"
     },
     {
         "file": "grid_2.xml",
-        "id": "myGrid"
-    },
-    {
-        "file": "grid_layout_1.xml",
-        "accessibility": "@string/grid_layout_1_instructions"
-    },
-    {
-        "file": "grid_layout_1.xml",
-        "accessibility": "@string/grid_layout_1_cancel"
-    },
-    {
-        "file": "grid_layout_1.xml",
-        "accessibility": "@string/grid_layout_1_ok"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "Email setup"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "You can configure email in a few simple steps:"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "Email address:"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "Password:"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "Manual setup"
-    },
-    {
-        "file": "grid_layout_2.xml",
-        "accessibility": "Next"
+        "id": "myGrid",
+        "tag": "GridView"
     },
     {
         "file": "hello_world.xml",
         "id": "text",
-        "accessibility": "@string/hello_world"
-    },
-    {
-        "file": "horizontal_scroll_view1.xml",
-        "accessibility": "@string/scrollbar_3_text"
+        "tag": "TextView"
     },
     {
         "file": "hover.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "hover.xml",
         "id": "description",
-        "accessibility": "@string/hover_description"
+        "tag": "TextView"
     },
     {
         "file": "hover.xml",
         "id": "message",
-        "accessibility": "@string/hover_message_initial"
+        "tag": "TextView"
     },
     {
         "file": "hover.xml",
         "id": "intercept_checkbox",
-        "accessibility": "@string/hover_intercept_checkbox"
+        "tag": "CheckBox"
     },
     {
         "file": "hover.xml",
-        "id": "interceptor"
+        "id": "interceptor",
+        "tag": "io.appium.android.apis.view.HoverInterceptorView"
     },
     {
         "file": "hover.xml",
         "id": "intercept_message",
-        "accessibility": "@string/hover_intercept_message_initial"
-    },
-    {
-        "file": "hover.xml",
-        "accessibility": "@string/hover_button"
+        "tag": "TextView"
     },
     {
         "file": "image_switcher_1.xml",
-        "id": "switcher"
+        "id": "switcher",
+        "tag": "ImageSwitcher"
     },
     {
         "file": "image_switcher_1.xml",
-        "id": "gallery"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_large_normal"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_large_at_most"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_large_at_most_padded"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_large_exactly_padded"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_small_normal"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_small_at_most"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_small_at_most_padded"
-    },
-    {
-        "file": "image_view_1.xml",
-        "accessibility": "@string/image_view_small_exactly_padded"
-    },
-    {
-        "file": "incoming_message.xml",
-        "accessibility": "Display a notification that will switch to the app in a new activity stack."
+        "id": "gallery",
+        "tag": "Gallery"
     },
     {
         "file": "incoming_message.xml",
         "id": "notify_app",
-        "accessibility": "Show App Notification"
-    },
-    {
-        "file": "incoming_message.xml",
-        "accessibility": "Display a notification that will go to a dedicated interstitial activity."
+        "tag": "Button"
     },
     {
         "file": "incoming_message.xml",
         "id": "notify_interstitial",
-        "accessibility": "Show Interstitial Notification"
+        "tag": "Button"
     },
     {
         "file": "incoming_message_info.xml",
         "id": "message",
-        "accessibility": "@string/incoming_message_info_message_text"
-    },
-    {
-        "file": "incoming_message_interstitial.xml",
-        "accessibility": "This would be where you would see a summary of the information related to the notification.  Instead, we'll just give you a button."
+        "tag": "TextView"
     },
     {
         "file": "incoming_message_interstitial.xml",
         "id": "notify_app",
-        "accessibility": "Switch To App"
+        "tag": "Button"
     },
     {
         "file": "incoming_message_panel.xml",
-        "id": "message"
+        "id": "message",
+        "tag": "TextView"
     },
     {
         "file": "incoming_message_view.xml",
-        "accessibility": "@string/incoming_message_view_message_text"
+        "id": "from",
+        "tag": "TextView"
     },
     {
         "file": "incoming_message_view.xml",
-        "id": "from"
-    },
-    {
-        "file": "incoming_message_view.xml",
-        "id": "message"
-    },
-    {
-        "file": "incoming_message_view.xml",
-        "accessibility": "@string/imcoming_message_view_message2_text"
-    },
-    {
-        "file": "install_apk.xml",
-        "accessibility": "Demonstrates using the INSTALL_PACKAGE Intent to install an application."
+        "id": "message",
+        "tag": "TextView"
     },
     {
         "file": "install_apk.xml",
         "id": "unknown_source",
-        "accessibility": "Unknown Source"
+        "tag": "Button"
     },
     {
         "file": "install_apk.xml",
         "id": "my_source",
-        "accessibility": "My Source"
+        "tag": "Button"
     },
     {
         "file": "install_apk.xml",
         "id": "replace",
-        "accessibility": "Replace"
+        "tag": "Button"
     },
     {
         "file": "install_apk.xml",
         "id": "uninstall",
-        "accessibility": "Uninstall"
+        "tag": "Button"
     },
     {
         "file": "install_apk.xml",
         "id": "uninstall_result",
-        "accessibility": "Uninstall w/Result"
-    },
-    {
-        "file": "intents.xml",
-        "accessibility": "@string/intents"
+        "tag": "Button"
     },
     {
         "file": "intents.xml",
         "id": "get_music",
-        "accessibility": "@string/get_music"
-    },
-    {
-        "file": "intent_activity_flags.xml",
-        "accessibility": "@string/intent_activity_flags"
+        "tag": "Button"
     },
     {
         "file": "intent_activity_flags.xml",
         "id": "flag_activity_clear_task",
-        "accessibility": "@string/flag_activity_clear_task"
+        "tag": "Button"
     },
     {
         "file": "intent_activity_flags.xml",
         "id": "flag_activity_clear_task_pi",
-        "accessibility": "@string/flag_activity_clear_task_pi"
-    },
-    {
-        "file": "isolated_service_controller.xml",
-        "accessibility": "@string/isolated_service_controller"
+        "tag": "Button"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "start1",
-        "accessibility": "@string/start_service_1"
+        "tag": "Button"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "stop1",
-        "accessibility": "@string/stop_service_1"
+        "tag": "Button"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "bind1",
-        "accessibility": "@string/bind_service_1"
+        "tag": "CheckBox"
     },
     {
         "file": "isolated_service_controller.xml",
-        "id": "status1"
+        "id": "status1",
+        "tag": "TextView"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "start2",
-        "accessibility": "@string/start_service_2"
+        "tag": "Button"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "stop2",
-        "accessibility": "@string/stop_service_2"
+        "tag": "Button"
     },
     {
         "file": "isolated_service_controller.xml",
         "id": "bind2",
-        "accessibility": "@string/bind_service_2"
+        "tag": "CheckBox"
     },
     {
         "file": "isolated_service_controller.xml",
-        "id": "status2"
+        "id": "status2",
+        "tag": "TextView"
     },
     {
         "file": "key_event_text.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "io.appium.android.apis.text.LogTextBox"
     },
     {
         "file": "key_event_text.xml",
         "id": "clear",
-        "accessibility": "@string/key_event_text_clear_text"
+        "tag": "Button"
     },
     {
         "file": "labeled_text_edit.xml",
-        "id": "msg"
+        "id": "msg",
+        "tag": "TextView"
     },
     {
         "file": "labeled_text_edit.xml",
         "id": "saved",
-        "accessibility": "@string/initial_text"
+        "tag": "EditText"
     },
     {
         "file": "launcher_shortcuts.xml",
-        "accessibility": "@string/msg_launcher_shortcuts"
-    },
-    {
-        "file": "launcher_shortcuts.xml",
-        "accessibility": "@string/label_intent"
-    },
-    {
-        "file": "launcher_shortcuts.xml",
-        "id": "txt_shortcut_intent"
+        "id": "txt_shortcut_intent",
+        "tag": "TextView"
     },
     {
         "file": "layout_animations.xml",
-        "id": "parent"
+        "id": "parent",
+        "tag": "LinearLayout"
     },
     {
         "file": "layout_animations.xml",
         "id": "addNewButton",
-        "accessibility": "Add Button"
+        "tag": "Button"
     },
     {
         "file": "layout_animations.xml",
         "id": "customAnimCB",
-        "accessibility": "Custom Animations"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations.xml",
         "id": "appearingCB",
-        "accessibility": "In"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations.xml",
         "id": "disappearingCB",
-        "accessibility": "Out"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations.xml",
         "id": "changingAppearingCB",
-        "accessibility": "Changing-In"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations.xml",
         "id": "changingDisappearingCB",
-        "accessibility": "Changing-Out"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations_by_default.xml",
         "id": "addNewButton",
-        "accessibility": "Add Button"
+        "tag": "Button"
     },
     {
         "file": "layout_animations_by_default.xml",
-        "id": "gridContainer"
+        "id": "gridContainer",
+        "tag": "GridLayout"
     },
     {
         "file": "layout_animations_hideshow.xml",
-        "id": "parent"
+        "id": "parent",
+        "tag": "LinearLayout"
     },
     {
         "file": "layout_animations_hideshow.xml",
         "id": "addNewButton",
-        "accessibility": "Show Buttons"
+        "tag": "Button"
     },
     {
         "file": "layout_animations_hideshow.xml",
         "id": "customAnimCB",
-        "accessibility": "Custom Animations"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animations_hideshow.xml",
         "id": "hideGoneCB",
-        "accessibility": "Hide (GONE)"
+        "tag": "CheckBox"
     },
     {
         "file": "layout_animation_1.xml",
-        "id": "grid"
+        "id": "grid",
+        "tag": "GridView"
     },
     {
         "file": "layout_animation_3.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "layout_animation_4.xml",
-        "id": "grid"
+        "id": "grid",
+        "tag": "GridView"
     },
     {
         "file": "layout_animation_5.xml",
-        "id": "grid"
+        "id": "grid",
+        "tag": "GridView"
     },
     {
         "file": "layout_animation_6.xml",
-        "id": "grid"
-    },
-    {
-        "file": "layout_animation_7.xml",
-        "accessibility": "@string/layout_animation_name"
-    },
-    {
-        "file": "layout_animation_7.xml",
-        "accessibility": "@string/layout_animation_lastname"
-    },
-    {
-        "file": "layout_animation_7.xml",
-        "accessibility": "@string/layout_animation_phone"
-    },
-    {
-        "file": "layout_animation_7.xml",
-        "accessibility": "@string/layout_animation_address"
-    },
-    {
-        "file": "linear_layout_1.xml",
-        "accessibility": "@string/linear_layout_1_top"
-    },
-    {
-        "file": "linear_layout_1.xml",
-        "accessibility": "@string/linear_layout_1_middle"
-    },
-    {
-        "file": "linear_layout_1.xml",
-        "accessibility": "@string/linear_layout_1_bottom"
-    },
-    {
-        "file": "linear_layout_10.xml",
-        "accessibility": "@string/linear_layout_10_from"
-    },
-    {
-        "file": "linear_layout_10.xml",
-        "accessibility": "@string/linear_layout_10_to"
-    },
-    {
-        "file": "linear_layout_2.xml",
-        "accessibility": "@string/linear_layout_2_top"
-    },
-    {
-        "file": "linear_layout_2.xml",
-        "accessibility": "@string/linear_layout_2_middle"
-    },
-    {
-        "file": "linear_layout_2.xml",
-        "accessibility": "@string/linear_layout_2_bottom"
-    },
-    {
-        "file": "linear_layout_3.xml",
-        "accessibility": "@string/linear_layout_3_top"
-    },
-    {
-        "file": "linear_layout_3.xml",
-        "accessibility": "@string/linear_layout_3_middle"
-    },
-    {
-        "file": "linear_layout_3.xml",
-        "accessibility": "@string/linear_layout_3_bottom"
-    },
-    {
-        "file": "linear_layout_5.xml",
-        "accessibility": "@string/linear_layout_5_instructions"
-    },
-    {
-        "file": "linear_layout_5.xml",
-        "accessibility": "@string/linear_layout_5_cancel"
-    },
-    {
-        "file": "linear_layout_5.xml",
-        "accessibility": "@string/linear_layout_5_ok"
-    },
-    {
-        "file": "linear_layout_6.xml",
-        "accessibility": "@string/linear_layout_6_one"
-    },
-    {
-        "file": "linear_layout_6.xml",
-        "accessibility": "@string/linear_layout_6_two"
-    },
-    {
-        "file": "linear_layout_6.xml",
-        "accessibility": "@string/linear_layout_6_three"
-    },
-    {
-        "file": "linear_layout_6.xml",
-        "accessibility": "@string/linear_layout_6_four"
-    },
-    {
-        "file": "linear_layout_7.xml",
-        "accessibility": "@string/linear_layout_7_small"
-    },
-    {
-        "file": "linear_layout_7.xml",
-        "accessibility": "@string/linear_layout_7_big"
-    },
-    {
-        "file": "linear_layout_7.xml",
-        "accessibility": "@string/linear_layout_7_small"
-    },
-    {
-        "file": "linear_layout_7.xml",
-        "accessibility": "@string/linear_layout_7_wrap"
+        "id": "grid",
+        "tag": "GridView"
     },
     {
         "file": "linear_layout_8.xml",
-        "id": "layout"
-    },
-    {
-        "file": "linear_layout_8.xml",
-        "accessibility": "@string/linear_layout_8_c"
-    },
-    {
-        "file": "linear_layout_8.xml",
-        "accessibility": "@string/linear_layout_8_b"
-    },
-    {
-        "file": "linear_layout_8.xml",
-        "accessibility": "@string/linear_layout_8_c"
+        "id": "layout",
+        "tag": "LinearLayout"
     },
     {
         "file": "linear_layout_9.xml",
-        "id": "list"
-    },
-    {
-        "file": "linear_layout_9.xml",
-        "accessibility": "@string/linear_layout_9_button"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "link.xml",
         "id": "text1",
-        "accessibility": "@string/link_text_auto"
+        "tag": "TextView"
     },
     {
         "file": "link.xml",
         "id": "text2",
-        "accessibility": "@string/link_text_manual"
+        "tag": "TextView"
     },
     {
         "file": "link.xml",
-        "id": "text3"
+        "id": "text3",
+        "tag": "TextView"
     },
     {
         "file": "link.xml",
-        "id": "text4"
+        "id": "text4",
+        "tag": "TextView"
     },
     {
         "file": "list_12.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "list_12.xml",
-        "id": "userText"
+        "id": "userText",
+        "tag": "EditText"
     },
     {
         "file": "list_13.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "list_13.xml",
-        "id": "status"
+        "id": "status",
+        "tag": "TextView"
     },
     {
         "file": "list_7.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "list_7.xml",
-        "id": "phone"
+        "id": "phone",
+        "tag": "TextView"
     },
     {
         "file": "list_8.xml",
         "id": "add",
-        "accessibility": "@string/list_8_new_photo"
+        "tag": "Button"
     },
     {
         "file": "list_8.xml",
         "id": "clear",
-        "accessibility": "@string/list_8_clear_photos"
+        "tag": "Button"
     },
     {
         "file": "list_8.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "list_8.xml",
         "id": "empty",
-        "accessibility": "@string/list_8_no_photos"
+        "tag": "TextView"
     },
     {
         "file": "list_item_checkbox.xml",
-        "id": "text1"
+        "id": "text1",
+        "tag": "CheckBox"
     },
     {
         "file": "list_item_icon_text.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "list_item_icon_text.xml",
-        "id": "text"
-    },
-    {
-        "file": "local_sample.xml",
-        "accessibility": "@string/local_sample"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "local_sample.xml",
         "id": "go",
-        "accessibility": "@string/go"
-    },
-    {
-        "file": "local_service_binding.xml",
-        "accessibility": "@string/local_service_binding"
+        "tag": "Button"
     },
     {
         "file": "local_service_binding.xml",
         "id": "bind",
-        "accessibility": "@string/bind_service"
+        "tag": "Button"
     },
     {
         "file": "local_service_binding.xml",
         "id": "unbind",
-        "accessibility": "@string/unbind_service"
-    },
-    {
-        "file": "local_service_controller.xml",
-        "accessibility": "@string/local_service_controller"
+        "tag": "Button"
     },
     {
         "file": "local_service_controller.xml",
         "id": "start",
-        "accessibility": "@string/start_service"
+        "tag": "Button"
     },
     {
         "file": "local_service_controller.xml",
         "id": "stop",
-        "accessibility": "@string/stop_service"
+        "tag": "Button"
     },
     {
         "file": "log_text_box_1.xml",
         "id": "add",
-        "accessibility": "@string/log_text_box_1_add_text"
+        "tag": "Button"
     },
     {
         "file": "log_text_box_1.xml",
-        "id": "text"
-    },
-    {
-        "file": "log_text_box_1.xml",
-        "accessibility": "@string/log_text_box_1_do_nothing_text"
+        "id": "text",
+        "tag": "io.appium.android.apis.text.LogTextBox"
     },
     {
         "file": "mapview.xml",
-        "id": "main"
-    },
-    {
-        "file": "marquee.xml",
-        "accessibility": "@string/marquee_default"
-    },
-    {
-        "file": "marquee.xml",
-        "accessibility": "@string/marquee_once"
-    },
-    {
-        "file": "marquee.xml",
-        "accessibility": "@string/marquee_forever"
+        "id": "main",
+        "tag": "LinearLayout"
     },
     {
         "file": "mediaplayer_1.xml",
         "id": "localvideo",
-        "accessibility": "@string/local_video"
+        "tag": "Button"
     },
     {
         "file": "mediaplayer_1.xml",
         "id": "streamvideo",
-        "accessibility": "@string/stream_video"
+        "tag": "Button"
     },
     {
         "file": "mediaplayer_1.xml",
         "id": "localaudio",
-        "accessibility": "@string/local_audio"
+        "tag": "Button"
     },
     {
         "file": "mediaplayer_1.xml",
         "id": "resourcesaudio",
-        "accessibility": "@string/res_audio"
+        "tag": "Button"
     },
     {
         "file": "mediaplayer_2.xml",
-        "id": "surface"
-    },
-    {
-        "file": "messenger_service_binding.xml",
-        "accessibility": "@string/messenger_service_binding"
+        "id": "surface",
+        "tag": "SurfaceView"
     },
     {
         "file": "messenger_service_binding.xml",
         "id": "bind",
-        "accessibility": "@string/bind_service"
+        "tag": "Button"
     },
     {
         "file": "messenger_service_binding.xml",
         "id": "unbind",
-        "accessibility": "@string/unbind_service"
+        "tag": "Button"
     },
     {
         "file": "messenger_service_binding.xml",
-        "id": "callback"
+        "id": "callback",
+        "tag": "TextView"
     },
     {
         "file": "morse_code.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "EditText"
     },
     {
         "file": "morse_code.xml",
         "id": "button",
-        "accessibility": "@string/vibrate"
+        "tag": "Button"
     },
     {
         "file": "notification_action.xml",
-        "id": "action_container"
+        "id": "action_container",
+        "tag": "LinearLayout"
     },
     {
         "file": "notification_action.xml",
-        "id": "action_image"
+        "id": "action_image",
+        "tag": "ImageView"
     },
     {
         "file": "notification_action.xml",
-        "id": "action_text"
+        "id": "action_text",
+        "tag": "TextView"
     },
     {
         "file": "notification_action_tombstone.xml",
-        "id": "action_container"
+        "id": "action_container",
+        "tag": "LinearLayout"
     },
     {
         "file": "notification_action_tombstone.xml",
-        "id": "action_image"
+        "id": "action_image",
+        "tag": "ImageView"
     },
     {
         "file": "notification_action_tombstone.xml",
-        "id": "action_text"
+        "id": "action_text",
+        "tag": "TextView"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "notification_background"
+        "id": "notification_background",
+        "tag": "FrameLayout"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "notification_main_column_container"
+        "id": "notification_main_column_container",
+        "tag": "LinearLayout"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "notification_main_column"
+        "id": "notification_main_column",
+        "tag": "FrameLayout"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "right_side"
+        "id": "right_side",
+        "tag": "FrameLayout"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "time"
+        "id": "time",
+        "tag": "ViewStub"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "chronometer"
+        "id": "chronometer",
+        "tag": "ViewStub"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "info"
+        "id": "info",
+        "tag": "TextView"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "right_icon"
+        "id": "right_icon",
+        "tag": "ImageView"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "action_divider"
+        "id": "action_divider",
+        "tag": "ImageView"
     },
     {
         "file": "notification_template_custom_big.xml",
-        "id": "actions"
+        "id": "actions",
+        "tag": "LinearLayout"
     },
     {
         "file": "notification_template_icon_group.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "notification_template_part_chronometer.xml",
-        "id": "chronometer"
+        "id": "chronometer",
+        "tag": "Chronometer"
     },
     {
         "file": "notification_template_part_time.xml",
-        "id": "time"
-    },
-    {
-        "file": "notifying_controller.xml",
-        "accessibility": "@string/notifying_service_controller"
+        "id": "time",
+        "tag": "DateTimeView"
     },
     {
         "file": "notifying_controller.xml",
         "id": "notifyStart",
-        "accessibility": "@string/start_service"
+        "tag": "Button"
     },
     {
         "file": "notifying_controller.xml",
         "id": "notifyStop",
-        "accessibility": "@string/stop_service"
+        "tag": "Button"
     },
     {
         "file": "notify_with_text.xml",
         "id": "short_notify",
-        "accessibility": "@string/notify_with_text_short_notify_text"
+        "tag": "Button"
     },
     {
         "file": "notify_with_text.xml",
         "id": "long_notify",
-        "accessibility": "@string/notify_with_text_long_notify_text"
+        "tag": "Button"
     },
     {
         "file": "overscan.xml",
-        "id": "image"
-    },
-    {
-        "file": "overscan.xml",
-        "accessibility": "Mode:"
+        "id": "image",
+        "tag": "view"
     },
     {
         "file": "overscan.xml",
         "id": "modeLowProfile",
-        "accessibility": "LOW_PROFILE"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "modeFullscreen",
-        "accessibility": "FULLSCREEN"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "modeHideNavigation",
-        "accessibility": "HIDE_NAVIGATION"
-    },
-    {
-        "file": "overscan.xml",
-        "accessibility": "Layout:"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "layoutStable",
-        "accessibility": "STABLE"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "layoutFullscreen",
-        "accessibility": "FULLSCREEN"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "layoutHideNavigation",
-        "accessibility": "HIDE_NAVIGATION"
-    },
-    {
-        "file": "overscan.xml",
-        "accessibility": "Window:"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "windowFullscreen",
-        "accessibility": "FULLSCREEN"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "windowHideActionBar",
-        "accessibility": "Hide ActionBar"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
         "id": "windowActionMode",
-        "accessibility": "Action Mode"
+        "tag": "CheckBox"
     },
     {
         "file": "overscan.xml",
-        "accessibility": "HIDE_NAVIGATION"
-    },
-    {
-        "file": "overscan.xml",
-        "id": "metricsText"
-    },
-    {
-        "file": "pick_contact.xml",
-        "accessibility": "@string/pick_contact_msg"
+        "id": "metricsText",
+        "tag": "TextView"
     },
     {
         "file": "pick_contact.xml",
         "id": "pick_contact",
-        "accessibility": "@string/pick_contact"
+        "tag": "Button"
     },
     {
         "file": "pick_contact.xml",
         "id": "pick_person",
-        "accessibility": "@string/pick_person"
+        "tag": "Button"
     },
     {
         "file": "pick_contact.xml",
         "id": "pick_phone",
-        "accessibility": "@string/pick_phone"
+        "tag": "Button"
     },
     {
         "file": "pick_contact.xml",
         "id": "pick_address",
-        "accessibility": "@string/pick_address"
-    },
-    {
-        "file": "popup_menu_1.xml",
-        "accessibility": "@string/popup_menu_button"
+        "tag": "Button"
     },
     {
         "file": "preference_widget_mypreference.xml",
-        "id": "mypreference_widget"
+        "id": "mypreference_widget",
+        "tag": "TextView"
     },
     {
         "file": "presentation_activity.xml",
         "id": "text",
-        "accessibility": "@string/presentation_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "presentation_activity.xml",
         "id": "show_all_displays",
-        "accessibility": "@string/presentation_show_all_displays"
+        "tag": "CheckBox"
     },
     {
         "file": "presentation_activity.xml",
-        "id": "display_list"
+        "id": "display_list",
+        "tag": "ListView"
     },
     {
         "file": "presentation_content.xml",
-        "id": "image"
+        "id": "image",
+        "tag": "ImageView"
     },
     {
         "file": "presentation_content.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "presentation_list_item.xml",
-        "id": "checkbox_presentation"
+        "id": "checkbox_presentation",
+        "tag": "CheckBox"
     },
     {
         "file": "presentation_list_item.xml",
-        "id": "display_id"
+        "id": "display_id",
+        "tag": "TextView"
     },
     {
         "file": "presentation_list_item.xml",
         "id": "info",
-        "accessibility": "@string/presentation_info_text"
+        "tag": "Button"
     },
     {
         "file": "presentation_with_media_router_activity.xml",
         "id": "text",
-        "accessibility": "@string/presentation_with_media_router_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "presentation_with_media_router_activity.xml",
-        "id": "info"
+        "id": "info",
+        "tag": "TextView"
     },
     {
         "file": "presentation_with_media_router_activity.xml",
-        "id": "surface_view"
+        "id": "surface_view",
+        "tag": "android.opengl.GLSurfaceView"
     },
     {
         "file": "presentation_with_media_router_content.xml",
-        "id": "surface_view"
+        "id": "surface_view",
+        "tag": "android.opengl.GLSurfaceView"
     },
     {
         "file": "progressbar_1.xml",
-        "id": "progress_horizontal"
-    },
-    {
-        "file": "progressbar_1.xml",
-        "accessibility": "@string/progressbar_1_default_progress"
+        "id": "progress_horizontal",
+        "tag": "ProgressBar"
     },
     {
         "file": "progressbar_1.xml",
         "id": "decrease",
-        "accessibility": "@string/progressbar_1_minus"
+        "tag": "Button"
     },
     {
         "file": "progressbar_1.xml",
         "id": "increase",
-        "accessibility": "@string/progressbar_1_plus"
-    },
-    {
-        "file": "progressbar_1.xml",
-        "accessibility": "@string/progressbar_1_secondary_progress"
+        "tag": "Button"
     },
     {
         "file": "progressbar_1.xml",
         "id": "decrease_secondary",
-        "accessibility": "@string/progressbar_1_minus"
+        "tag": "Button"
     },
     {
         "file": "progressbar_1.xml",
         "id": "increase_secondary",
-        "accessibility": "@string/progressbar_1_plus"
+        "tag": "Button"
     },
     {
         "file": "progressbar_2.xml",
-        "id": "progress_large"
+        "id": "progress_large",
+        "tag": "ProgressBar"
     },
     {
         "file": "progressbar_2.xml",
-        "id": "progress"
+        "id": "progress",
+        "tag": "ProgressBar"
     },
     {
         "file": "progressbar_2.xml",
-        "id": "progress_small"
+        "id": "progress_small",
+        "tag": "ProgressBar"
     },
     {
         "file": "progressbar_2.xml",
-        "id": "progress_small_title"
+        "id": "progress_small_title",
+        "tag": "ProgressBar"
     },
     {
         "file": "progressbar_3.xml",
         "id": "showIndeterminate",
-        "accessibility": "@string/progressbar_3_indeterminate"
+        "tag": "Button"
     },
     {
         "file": "progressbar_3.xml",
         "id": "showIndeterminateNoTitle",
-        "accessibility": "@string/progressbar_3_indeterminate_no_title"
+        "tag": "Button"
     },
     {
         "file": "progressbar_4.xml",
         "id": "toggle",
-        "accessibility": "@string/progressbar_4_toggle"
+        "tag": "Button"
     },
     {
         "file": "quick_contacts.xml",
-        "id": "badge"
+        "id": "badge",
+        "tag": "QuickContactBadge"
     },
     {
         "file": "quick_contacts.xml",
-        "id": "name"
+        "id": "name",
+        "tag": "TextView"
     },
     {
         "file": "radio_group_1.xml",
-        "id": "menu"
+        "id": "menu",
+        "tag": "RadioGroup"
     },
     {
         "file": "radio_group_1.xml",
         "id": "breakfast",
-        "accessibility": "@string/radio_group_1_breakfast"
+        "tag": "RadioButton"
     },
     {
         "file": "radio_group_1.xml",
         "id": "lunch",
-        "accessibility": "@string/radio_group_1_lunch"
+        "tag": "RadioButton"
     },
     {
         "file": "radio_group_1.xml",
         "id": "dinner",
-        "accessibility": "@string/radio_group_1_dinner"
+        "tag": "RadioButton"
     },
     {
         "file": "radio_group_1.xml",
         "id": "all",
-        "accessibility": "@string/radio_group_1_all"
+        "tag": "RadioButton"
     },
     {
         "file": "radio_group_1.xml",
         "id": "choice",
-        "accessibility": "@string/radio_group_1_selection"
+        "tag": "TextView"
     },
     {
         "file": "radio_group_1.xml",
         "id": "clear",
-        "accessibility": "@string/radio_group_1_clear"
+        "tag": "Button"
     },
     {
         "file": "ratingbar_1.xml",
-        "id": "ratingbar1"
+        "id": "ratingbar1",
+        "tag": "RatingBar"
     },
     {
         "file": "ratingbar_1.xml",
-        "id": "ratingbar2"
+        "id": "ratingbar2",
+        "tag": "RatingBar"
     },
     {
         "file": "ratingbar_1.xml",
-        "id": "rating"
+        "id": "rating",
+        "tag": "TextView"
     },
     {
         "file": "ratingbar_1.xml",
-        "id": "small_ratingbar"
+        "id": "small_ratingbar",
+        "tag": "RatingBar"
     },
     {
         "file": "ratingbar_1.xml",
-        "id": "indicator_ratingbar"
+        "id": "indicator_ratingbar",
+        "tag": "RatingBar"
     },
     {
         "file": "read_asset.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "receive_result.xml",
-        "accessibility": "@string/receive_result_instructions"
-    },
-    {
-        "file": "receive_result.xml",
-        "id": "results"
+        "id": "results",
+        "tag": "TextView"
     },
     {
         "file": "receive_result.xml",
         "id": "get",
-        "accessibility": "@string/receive_result_result"
-    },
-    {
-        "file": "redirect_enter.xml",
-        "accessibility": "@string/redirect_enter"
+        "tag": "Button"
     },
     {
         "file": "redirect_enter.xml",
         "id": "go",
-        "accessibility": "@string/go"
+        "tag": "Button"
     },
     {
         "file": "redirect_getter.xml",
-        "accessibility": "@string/redirect_getter"
-    },
-    {
-        "file": "redirect_getter.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "EditText"
     },
     {
         "file": "redirect_getter.xml",
         "id": "apply",
-        "accessibility": "@string/apply"
+        "tag": "Button"
     },
     {
         "file": "redirect_main.xml",
-        "accessibility": "@string/redirect_main"
-    },
-    {
-        "file": "redirect_main.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "redirect_main.xml",
         "id": "clear",
-        "accessibility": "@string/clear_text"
+        "tag": "Button"
     },
     {
         "file": "redirect_main.xml",
         "id": "newView",
-        "accessibility": "@string/new_text"
+        "tag": "Button"
     },
     {
         "file": "relative_layout_1.xml",
         "id": "view1",
-        "accessibility": "@string/relative_layout_1_top"
+        "tag": "TextView"
     },
     {
         "file": "relative_layout_1.xml",
         "id": "view2",
-        "accessibility": "@string/relative_layout_1_bottom"
+        "tag": "TextView"
     },
     {
         "file": "relative_layout_1.xml",
         "id": "view3",
-        "accessibility": "@string/relative_layout_1_center"
+        "tag": "TextView"
     },
     {
         "file": "relative_layout_2.xml",
         "id": "label",
-        "accessibility": "@string/relative_layout_2_instructions"
+        "tag": "TextView"
     },
     {
         "file": "relative_layout_2.xml",
-        "id": "entry"
+        "id": "entry",
+        "tag": "EditText"
     },
     {
         "file": "relative_layout_2.xml",
         "id": "ok",
-        "accessibility": "@string/relative_layout_2_ok"
-    },
-    {
-        "file": "relative_layout_2.xml",
-        "accessibility": "@string/relative_layout_2_cancel"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
-        "accessibility": "Demonstrates various options that can be used when binding to a service to modify its process management."
-    },
-    {
-        "file": "remote_binding_options.xml",
-        "id": "callback"
+        "id": "callback",
+        "tag": "TextView"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_normal",
-        "accessibility": "Normal"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_not_foreground",
-        "accessibility": "Not Foreground"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_above_client",
-        "accessibility": "Above Client"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_allow_oom",
-        "accessibility": "Allow OOM Management"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_waive_priority",
-        "accessibility": "Waive Priority"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_important",
-        "accessibility": "Important"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "bind_with_activity",
-        "accessibility": "Adjust With Activity"
+        "tag": "Button"
     },
     {
         "file": "remote_binding_options.xml",
         "id": "unbind",
-        "accessibility": "@string/unbind_service"
-    },
-    {
-        "file": "remote_service_binding.xml",
-        "accessibility": "@string/remote_service_binding"
+        "tag": "Button"
     },
     {
         "file": "remote_service_binding.xml",
         "id": "bind",
-        "accessibility": "@string/bind_service"
+        "tag": "Button"
     },
     {
         "file": "remote_service_binding.xml",
         "id": "unbind",
-        "accessibility": "@string/unbind_service"
+        "tag": "Button"
     },
     {
         "file": "remote_service_binding.xml",
         "id": "kill",
-        "accessibility": "@string/kill_process"
+        "tag": "Button"
     },
     {
         "file": "remote_service_binding.xml",
-        "id": "callback"
-    },
-    {
-        "file": "remote_service_controller.xml",
-        "accessibility": "@string/remote_service_controller"
+        "id": "callback",
+        "tag": "TextView"
     },
     {
         "file": "remote_service_controller.xml",
         "id": "start",
-        "accessibility": "@string/start_service"
+        "tag": "Button"
     },
     {
         "file": "remote_service_controller.xml",
         "id": "stop",
-        "accessibility": "@string/stop_service"
-    },
-    {
-        "file": "reorder_four.xml",
-        "accessibility": "@string/reorder_four_text"
+        "tag": "Button"
     },
     {
         "file": "reorder_four.xml",
         "id": "reorder_second_to_front",
-        "accessibility": "@string/reorder_second_to_front"
-    },
-    {
-        "file": "reorder_on_launch.xml",
-        "accessibility": "@string/reorder_on_launch"
+        "tag": "Button"
     },
     {
         "file": "reorder_on_launch.xml",
         "id": "reorder_launch_two",
-        "accessibility": "@string/reorder_launch_two"
-    },
-    {
-        "file": "reorder_three.xml",
-        "accessibility": "@string/reorder_three_text"
+        "tag": "Button"
     },
     {
         "file": "reorder_three.xml",
         "id": "reorder_launch_four",
-        "accessibility": "@string/reorder_launch_four"
-    },
-    {
-        "file": "reorder_two.xml",
-        "accessibility": "@string/reorder_two_text"
+        "tag": "Button"
     },
     {
         "file": "reorder_two.xml",
         "id": "reorder_launch_three",
-        "accessibility": "@string/reorder_launch_three"
+        "tag": "Button"
     },
     {
         "file": "resources.xml",
-        "id": "styled_text"
+        "id": "styled_text",
+        "tag": "TextView"
     },
     {
         "file": "resources.xml",
-        "id": "plain_text"
+        "id": "plain_text",
+        "tag": "TextView"
     },
     {
         "file": "resources.xml",
-        "id": "res1"
-    },
-    {
-        "file": "resources_layout_reference.xml",
-        "accessibility": "@string/resources_layout_reference_description"
-    },
-    {
-        "file": "resources_layout_reference.xml",
-        "accessibility": "@string/resources_layout_reference_default"
-    },
-    {
-        "file": "resources_layout_reference_tablet.xml",
-        "accessibility": "@string/resources_layout_reference_description"
-    },
-    {
-        "file": "resources_layout_reference_tablet.xml",
-        "accessibility": "@string/resources_layout_reference_tablet"
-    },
-    {
-        "file": "resources_smallest_width.xml",
-        "accessibility": "@string/resources_smallest_width_description"
-    },
-    {
-        "file": "resources_smallest_width_row.xml",
-        "accessibility": "Default Width\\n#1"
-    },
-    {
-        "file": "resources_smallest_width_row.xml",
-        "accessibility": "Default Width\\n#2"
-    },
-    {
-        "file": "resources_width.xml",
-        "accessibility": "Default Width\\n#1"
-    },
-    {
-        "file": "resources_width.xml",
-        "accessibility": "Default Width\\n#2"
-    },
-    {
-        "file": "resources_width_and_height.xml",
-        "accessibility": "@string/resources_width_and_height_description"
+        "id": "res1",
+        "tag": "TextView"
     },
     {
         "file": "rotating_list.xml",
         "id": "button",
-        "accessibility": "Flip"
+        "tag": "Button"
     },
     {
         "file": "rotating_list.xml",
-        "id": "list_en"
+        "id": "list_en",
+        "tag": "ListView"
     },
     {
         "file": "rotating_list.xml",
-        "id": "list_fr"
+        "id": "list_fr",
+        "tag": "ListView"
     },
     {
         "file": "rotating_view.xml",
-        "id": "container"
+        "id": "container",
+        "tag": "LinearLayout"
     },
     {
         "file": "rotating_view.xml",
-        "accessibility": "TX"
+        "id": "translationX",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "id": "translationX"
+        "id": "translationY",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "accessibility": "TY"
+        "id": "scaleX",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "id": "translationY"
+        "id": "scaleY",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "accessibility": "SX"
+        "id": "rotationX",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "id": "scaleX"
+        "id": "rotationY",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
-        "accessibility": "SY"
-    },
-    {
-        "file": "rotating_view.xml",
-        "id": "scaleY"
-    },
-    {
-        "file": "rotating_view.xml",
-        "accessibility": "X"
-    },
-    {
-        "file": "rotating_view.xml",
-        "id": "rotationX"
-    },
-    {
-        "file": "rotating_view.xml",
-        "accessibility": "Y"
-    },
-    {
-        "file": "rotating_view.xml",
-        "id": "rotationY"
-    },
-    {
-        "file": "rotating_view.xml",
-        "accessibility": "Z"
-    },
-    {
-        "file": "rotating_view.xml",
-        "id": "rotationZ"
+        "id": "rotationZ",
+        "tag": "SeekBar"
     },
     {
         "file": "rotating_view.xml",
         "id": "rotatingButton",
-        "accessibility": "Rotating Button"
+        "tag": "Button"
     },
     {
         "file": "save_restore_state.xml",
-        "id": "msg"
-    },
-    {
-        "file": "save_restore_state.xml",
-        "accessibility": "@string/saves_state"
+        "id": "msg",
+        "tag": "TextView"
     },
     {
         "file": "save_restore_state.xml",
         "id": "saved",
-        "accessibility": "@string/initial_text"
-    },
-    {
-        "file": "save_restore_state.xml",
-        "accessibility": "@string/no_saves_state"
-    },
-    {
-        "file": "save_restore_state.xml",
-        "accessibility": "@string/initial_text"
+        "tag": "EditText"
     },
     {
         "file": "screen_orientation.xml",
-        "accessibility": "@string/screen_orientation_summary"
-    },
-    {
-        "file": "screen_orientation.xml",
-        "id": "orientation"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar1.xml",
-        "accessibility": "@string/scrollbar_1_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar2.xml",
-        "accessibility": "@string/scrollbar_2_text"
+        "id": "orientation",
+        "tag": "Spinner"
     },
     {
         "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
+        "id": "view3",
+        "tag": "ScrollView"
     },
     {
         "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
+        "id": "view4",
+        "tag": "ScrollView"
     },
     {
         "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_2_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_3_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "id": "view3"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_3_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "id": "view4"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_3_text"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "id": "view5"
-    },
-    {
-        "file": "scrollbar3.xml",
-        "accessibility": "@string/scrollbar_3_text"
+        "id": "view5",
+        "tag": "ScrollView"
     },
     {
         "file": "scroll_view_1.xml",
-        "id": "layout"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_1"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_1"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_2"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_2"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_3"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_3"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_4"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_4"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_5"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_5"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_text_6"
-    },
-    {
-        "file": "scroll_view_1.xml",
-        "accessibility": "@string/scroll_view_1_button_6"
+        "id": "layout",
+        "tag": "LinearLayout"
     },
     {
         "file": "scroll_view_2.xml",
-        "id": "layout"
-    },
-    {
-        "file": "scroll_view_2.xml",
-        "accessibility": "@string/scroll_view_2_text_1"
-    },
-    {
-        "file": "scroll_view_2.xml",
-        "accessibility": "@string/scroll_view_2_button_1"
+        "id": "layout",
+        "tag": "LinearLayout"
     },
     {
         "file": "searchview_actionbar.xml",
-        "id": "status_text"
+        "id": "status_text",
+        "tag": "TextView"
     },
     {
         "file": "searchview_filter.xml",
-        "id": "search_view"
+        "id": "search_view",
+        "tag": "SearchView"
     },
     {
         "file": "searchview_filter.xml",
-        "id": "list_view"
-    },
-    {
-        "file": "search_invoke.xml",
-        "accessibility": "@string/msg_search"
-    },
-    {
-        "file": "search_invoke.xml",
-        "accessibility": "@string/search_sect_invocation"
+        "id": "list_view",
+        "tag": "ListView"
     },
     {
         "file": "search_invoke.xml",
         "id": "btn_start_search",
-        "accessibility": "@string/label_onsearchrequested"
+        "tag": "Button"
     },
     {
         "file": "search_invoke.xml",
-        "id": "spinner_menu_mode"
+        "id": "spinner_menu_mode",
+        "tag": "Spinner"
     },
     {
         "file": "search_invoke.xml",
-        "accessibility": "@string/search_sect_options"
+        "id": "txt_query_prefill",
+        "tag": "EditText"
     },
     {
         "file": "search_invoke.xml",
-        "accessibility": "@string/label_search_query_prefill"
-    },
-    {
-        "file": "search_invoke.xml",
-        "id": "txt_query_prefill"
-    },
-    {
-        "file": "search_invoke.xml",
-        "accessibility": "@string/label_search_query_appdata"
-    },
-    {
-        "file": "search_invoke.xml",
-        "id": "txt_query_appdata"
+        "id": "txt_query_appdata",
+        "tag": "EditText"
     },
     {
         "file": "search_query_results.xml",
-        "accessibility": "@string/msg_search_results"
+        "id": "txt_query",
+        "tag": "TextView"
     },
     {
         "file": "search_query_results.xml",
-        "accessibility": "@string/label_search_query"
+        "id": "txt_appdata",
+        "tag": "TextView"
     },
     {
         "file": "search_query_results.xml",
-        "id": "txt_query"
-    },
-    {
-        "file": "search_query_results.xml",
-        "accessibility": "@string/label_search_appdata"
-    },
-    {
-        "file": "search_query_results.xml",
-        "id": "txt_appdata"
-    },
-    {
-        "file": "search_query_results.xml",
-        "accessibility": "@string/label_search_deliveredby"
-    },
-    {
-        "file": "search_query_results.xml",
-        "id": "txt_deliveredby"
+        "id": "txt_deliveredby",
+        "tag": "TextView"
     },
     {
         "file": "secure_dialog_activity.xml",
         "id": "text",
-        "accessibility": "@string/secure_dialog_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "secure_dialog_activity.xml",
         "id": "show",
-        "accessibility": "@string/secure_dialog_show_button"
+        "tag": "Button"
     },
     {
         "file": "secure_surface_view_activity.xml",
         "id": "text",
-        "accessibility": "@string/secure_surface_view_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "secure_surface_view_activity.xml",
-        "id": "surface_view"
+        "id": "surface_view",
+        "tag": "android.opengl.GLSurfaceView"
     },
     {
         "file": "secure_view.xml",
         "id": "secure_view_description",
-        "accessibility": "@string/secure_view_description"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step1_heading"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step1_detail"
+        "tag": "TextView"
     },
     {
         "file": "secure_view.xml",
         "id": "secure_view_toast_button",
-        "accessibility": "@string/secure_view_pop_toast"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step2_heading"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step2_detail"
+        "tag": "Button"
     },
     {
         "file": "secure_view.xml",
         "id": "secure_view_unsecure_button",
-        "accessibility": "@string/secure_view_button"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step3_heading"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step3_detail"
+        "tag": "Button"
     },
     {
         "file": "secure_view.xml",
         "id": "secure_view_builtin_secure_button",
-        "accessibility": "@string/secure_view_button"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step4_heading"
-    },
-    {
-        "file": "secure_view.xml",
-        "accessibility": "@string/secure_view_step4_detail"
+        "tag": "Button"
     },
     {
         "file": "secure_view.xml",
         "id": "secure_view_custom_secure_button",
-        "accessibility": "@string/secure_view_button"
+        "tag": "Button"
     },
     {
         "file": "secure_view_overlay.xml",
         "id": "secure_view_overlay_description",
-        "accessibility": "@string/secure_view_overlay_description"
+        "tag": "TextView"
     },
     {
         "file": "secure_view_overlay.xml",
         "id": "secure_view_overlay_button1",
-        "accessibility": "@string/secure_view_overlay_button1"
+        "tag": "Button"
     },
     {
         "file": "secure_view_overlay.xml",
         "id": "secure_view_overlay_button2",
-        "accessibility": "@string/secure_view_overlay_button2"
+        "tag": "Button"
     },
     {
         "file": "secure_view_overlay.xml",
         "id": "secure_view_overlay_button3",
-        "accessibility": "@string/secure_view_overlay_button3"
+        "tag": "Button"
     },
     {
         "file": "secure_window_activity.xml",
         "id": "text",
-        "accessibility": "@string/secure_window_activity_text"
+        "tag": "TextView"
     },
     {
         "file": "seekbar_1.xml",
-        "id": "seek"
+        "id": "seek",
+        "tag": "SeekBar"
     },
     {
         "file": "seekbar_1.xml",
-        "id": "progress"
+        "id": "progress",
+        "tag": "TextView"
     },
     {
         "file": "seekbar_1.xml",
-        "id": "tracking"
+        "id": "tracking",
+        "tag": "TextView"
     },
     {
         "file": "select_dialog.xml",
-        "id": "screen"
+        "id": "screen",
+        "tag": "LinearLayout"
     },
     {
         "file": "select_dialog.xml",
         "id": "show_dialog",
-        "accessibility": "@string/select_dialog_show"
+        "tag": "Button"
     },
     {
         "file": "select_dialog.xml",
-        "id": "message"
+        "id": "message",
+        "tag": "TextView"
     },
     {
         "file": "select_dialog_item_material.xml",
-        "id": "text1"
+        "id": "text1",
+        "tag": "TextView"
     },
     {
         "file": "select_dialog_multichoice_material.xml",
-        "id": "text1"
+        "id": "text1",
+        "tag": "CheckedTextView"
     },
     {
         "file": "select_dialog_singlechoice_material.xml",
-        "id": "text1"
-    },
-    {
-        "file": "send_result.xml",
-        "accessibility": "@string/pick_result"
+        "id": "text1",
+        "tag": "CheckedTextView"
     },
     {
         "file": "send_result.xml",
         "id": "corky",
-        "accessibility": "@string/corky"
+        "tag": "Button"
     },
     {
         "file": "send_result.xml",
         "id": "violet",
-        "accessibility": "@string/violet"
-    },
-    {
-        "file": "service_start_arguments_controller.xml",
-        "accessibility": "@string/service_start_arguments_controller"
+        "tag": "Button"
     },
     {
         "file": "service_start_arguments_controller.xml",
         "id": "start1",
-        "accessibility": "@string/start1_service"
+        "tag": "Button"
     },
     {
         "file": "service_start_arguments_controller.xml",
         "id": "start2",
-        "accessibility": "@string/start2_service"
+        "tag": "Button"
     },
     {
         "file": "service_start_arguments_controller.xml",
         "id": "start3",
-        "accessibility": "@string/start3_service"
+        "tag": "Button"
     },
     {
         "file": "service_start_arguments_controller.xml",
         "id": "startfail",
-        "accessibility": "@string/startfail_service"
+        "tag": "Button"
     },
     {
         "file": "service_start_arguments_controller.xml",
         "id": "kill",
-        "accessibility": "@string/kill_process"
+        "tag": "Button"
     },
     {
         "file": "simple_list_item_checkable_1.xml",
-        "id": "text1"
-    },
-    {
-        "file": "sms_demo.xml",
-        "accessibility": "@string/sms_warning"
+        "id": "text1",
+        "tag": "TextView"
     },
     {
         "file": "sms_demo.xml",
         "id": "sms_enable_receiver",
-        "accessibility": "@string/sms_enable_receiver"
+        "tag": "CheckBox"
     },
     {
         "file": "sms_demo.xml",
-        "accessibility": "@string/sms_recipient_label"
+        "id": "sms_recipient",
+        "tag": "EditText"
     },
     {
         "file": "sms_demo.xml",
-        "id": "sms_recipient"
-    },
-    {
-        "file": "sms_demo.xml",
-        "accessibility": "@string/sms_content_label"
-    },
-    {
-        "file": "sms_demo.xml",
-        "id": "sms_content"
+        "id": "sms_content",
+        "tag": "EditText"
     },
     {
         "file": "sms_demo.xml",
         "id": "sms_send_message",
-        "accessibility": "@string/sms_send_message"
+        "tag": "Button"
     },
     {
         "file": "sms_demo.xml",
-        "id": "sms_status"
+        "id": "sms_status",
+        "tag": "TextView"
     },
     {
         "file": "soft_input_modes.xml",
-        "accessibility": "@string/soft_input_modes_summary"
-    },
-    {
-        "file": "soft_input_modes.xml",
-        "accessibility": "@string/soft_input_modes_label"
-    },
-    {
-        "file": "soft_input_modes.xml",
-        "id": "resize_mode"
-    },
-    {
-        "file": "soft_input_modes.xml",
-        "accessibility": "@string/soft_input_modes_content"
+        "id": "resize_mode",
+        "tag": "Spinner"
     },
     {
         "file": "soft_input_modes.xml",
         "id": "saved",
-        "accessibility": "@string/soft_input_modes_initial_text"
+        "tag": "EditText"
     },
     {
         "file": "spinner_1.xml",
-        "accessibility": "@string/spinner_1_color"
+        "id": "spinner1",
+        "tag": "Spinner"
     },
     {
         "file": "spinner_1.xml",
-        "id": "spinner1"
-    },
-    {
-        "file": "spinner_1.xml",
-        "accessibility": "@string/spinner_1_planet"
-    },
-    {
-        "file": "spinner_1.xml",
-        "id": "spinner2"
+        "id": "spinner2",
+        "tag": "Spinner"
     },
     {
         "file": "split_touch_view.xml",
-        "accessibility": "@string/split_touch_view_description"
+        "id": "list1",
+        "tag": "ListView"
     },
     {
         "file": "split_touch_view.xml",
-        "id": "list1"
-    },
-    {
-        "file": "split_touch_view.xml",
-        "id": "list2"
+        "id": "list2",
+        "tag": "ListView"
     },
     {
         "file": "status_bar_balloon.xml",
-        "id": "icon"
+        "id": "icon",
+        "tag": "ImageView"
     },
     {
         "file": "status_bar_balloon.xml",
-        "id": "text"
-    },
-    {
-        "file": "status_bar_notifications.xml",
-        "accessibility": "@string/status_bar_notifications_icons_only"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "happy",
-        "accessibility": "@string/status_bar_notifications_happy"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "neutral",
-        "accessibility": "@string/status_bar_notifications_ok"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "sad",
-        "accessibility": "@string/status_bar_notifications_sad"
-    },
-    {
-        "file": "status_bar_notifications.xml",
-        "accessibility": "@string/status_bar_notifications_icons_and_marquee"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "happyMarquee",
-        "accessibility": "@string/status_bar_notifications_happy"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "neutralMarquee",
-        "accessibility": "@string/status_bar_notifications_ok"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "sadMarquee",
-        "accessibility": "@string/status_bar_notifications_sad"
-    },
-    {
-        "file": "status_bar_notifications.xml",
-        "accessibility": "@string/status_bar_notifications_remote_views"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "happyViews",
-        "accessibility": "@string/status_bar_notifications_happy"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "neutralViews",
-        "accessibility": "@string/status_bar_notifications_ok"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "sadViews",
-        "accessibility": "@string/status_bar_notifications_sad"
-    },
-    {
-        "file": "status_bar_notifications.xml",
-        "accessibility": "@string/status_bar_notifications_defaults"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "defaultSound",
-        "accessibility": "@string/status_bar_notifications_default_sound"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "defaultVibrate",
-        "accessibility": "@string/status_bar_notifications_default_vibrate"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "defaultAll",
-        "accessibility": "@string/status_bar_notifications_default_all"
+        "tag": "Button"
     },
     {
         "file": "status_bar_notifications.xml",
         "id": "clear",
-        "accessibility": "@string/status_bar_notifications_clear"
+        "tag": "Button"
     },
     {
         "file": "styled_text.xml",
-        "accessibility": "@string/styled_text_rsrc"
-    },
-    {
-        "file": "styled_text.xml",
-        "accessibility": "@string/styled_text"
-    },
-    {
-        "file": "styled_text.xml",
-        "accessibility": "@string/styled_text_prog"
-    },
-    {
-        "file": "styled_text.xml",
-        "id": "text"
+        "id": "text",
+        "tag": "TextView"
     },
     {
         "file": "support_simple_spinner_dropdown_item.xml",
-        "id": "text1"
+        "id": "text1",
+        "tag": "TextView"
     },
     {
         "file": "surface_view_overlay.xml",
-        "id": "glsurfaceview"
+        "id": "glsurfaceview",
+        "tag": "android.opengl.GLSurfaceView"
     },
     {
         "file": "surface_view_overlay.xml",
-        "id": "hidecontainer"
+        "id": "hidecontainer",
+        "tag": "LinearLayout"
     },
     {
         "file": "surface_view_overlay.xml",
         "id": "hideme1",
-        "accessibility": "@string/hide_me"
+        "tag": "Button"
     },
     {
         "file": "surface_view_overlay.xml",
         "id": "hideme2",
-        "accessibility": "@string/hide_me"
+        "tag": "Button"
     },
     {
         "file": "surface_view_overlay.xml",
         "id": "vis",
-        "accessibility": "@string/visibility_1_vis"
+        "tag": "Button"
     },
     {
         "file": "surface_view_overlay.xml",
         "id": "invis",
-        "accessibility": "@string/visibility_1_invis"
+        "tag": "Button"
     },
     {
         "file": "surface_view_overlay.xml",
         "id": "gone",
-        "accessibility": "@string/visibility_1_gone"
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "Standard switch"
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "Default is on"
+        "tag": "Button"
     },
     {
         "file": "switches.xml",
         "id": "monitored_switch",
-        "accessibility": "Monitored switch"
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "Customized text"
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "This is an example of a switch with a lot of text in it. It may end up wrapping to another line. The switch will be pinned at the top."
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "This is an example of a switch with a lot of text in it. It may end up wrapping to another line. The switch will be vertically centered."
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "This is an example of a switch with a lot of text in it. It may end up wrapping to another line. The switch will be pinned at the bottom."
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "Switch with match_parent width"
-    },
-    {
-        "file": "switches.xml",
-        "accessibility": "Standalone switch below:"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_star"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_open"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_open_shortcut"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_triple_star"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_save"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_save_shortcut"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_star"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_quit"
-    },
-    {
-        "file": "table_layout_1.xml",
-        "accessibility": "@string/table_layout_1_quit_shortcut"
-    },
-    {
-        "file": "table_layout_10.xml",
-        "accessibility": "@string/table_layout_10_user"
+        "tag": "Switch"
     },
     {
         "file": "table_layout_10.xml",
         "id": "username",
-        "accessibility": "@string/table_layout_10_username_text"
-    },
-    {
-        "file": "table_layout_10.xml",
-        "accessibility": "@string/table_layout_10_password"
+        "tag": "EditText"
     },
     {
         "file": "table_layout_10.xml",
         "id": "password",
-        "accessibility": "@string/table_layout_10_password_text"
+        "tag": "EditText"
     },
     {
         "file": "table_layout_10.xml",
         "id": "cancel",
-        "accessibility": "@string/table_layout_10_cancel"
+        "tag": "Button"
     },
     {
         "file": "table_layout_10.xml",
         "id": "login",
-        "accessibility": "@string/table_layout_10_login"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_open"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_open_shortcut"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_save"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_save_shortcut"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_save_as"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_x"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_import"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_export"
-    },
-    {
-        "file": "table_layout_11.xml",
-        "accessibility": "@string/table_layout_7_export_shortcut"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_a"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_b"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_c"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_d"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_e"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_f"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_g"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_h"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_a"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_b"
-    },
-    {
-        "file": "table_layout_12.xml",
-        "accessibility": "@string/table_layout_12_g"
-    },
-    {
-        "file": "table_layout_2.xml",
-        "accessibility": "@string/table_layout_2_open"
-    },
-    {
-        "file": "table_layout_2.xml",
-        "accessibility": "@string/table_layout_2_path_1"
-    },
-    {
-        "file": "table_layout_2.xml",
-        "accessibility": "@string/table_layout_2_save_all"
-    },
-    {
-        "file": "table_layout_2.xml",
-        "accessibility": "@string/table_layout_2_save"
-    },
-    {
-        "file": "table_layout_2.xml",
-        "accessibility": "@string/table_layout_2_path_2"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_star"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_open"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_open_shortcut"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_triple_star"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_save"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_save_shortcut"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_too_long"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_star"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_quit"
-    },
-    {
-        "file": "table_layout_3.xml",
-        "accessibility": "@string/table_layout_3_quit_shortcut"
-    },
-    {
-        "file": "table_layout_4.xml",
-        "accessibility": "@string/table_layout_4_open"
-    },
-    {
-        "file": "table_layout_4.xml",
-        "accessibility": "@string/table_layout_4_open_shortcut"
-    },
-    {
-        "file": "table_layout_4.xml",
-        "accessibility": "@string/table_layout_4_save"
-    },
-    {
-        "file": "table_layout_4.xml",
-        "accessibility": "@string/table_layout_4_save_shortcut"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_open"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_open_shortcut"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_save"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_save_shortcut"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_save_as"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_import"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_export"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_export_shortcut"
-    },
-    {
-        "file": "table_layout_5.xml",
-        "accessibility": "@string/table_layout_5_quit"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_open"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_open_shortcut"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_save"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_save_shortcut"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_save_as"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_x"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_import"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_x"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_export"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_export_shortcut"
-    },
-    {
-        "file": "table_layout_6.xml",
-        "accessibility": "@string/table_layout_6_quit"
+        "tag": "Button"
     },
     {
         "file": "table_layout_7.xml",
-        "id": "menu"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_open"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_open_shortcut"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_save"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_save_shortcut"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_save_as"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_x"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_import"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_x"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_export"
-    },
-    {
-        "file": "table_layout_7.xml",
-        "accessibility": "@string/table_layout_7_export_shortcut"
+        "id": "menu",
+        "tag": "TableLayout"
     },
     {
         "file": "table_layout_7.xml",
         "id": "toggle2",
-        "accessibility": "@string/table_layout_7_toggle_checkmarks"
+        "tag": "Button"
     },
     {
         "file": "table_layout_7.xml",
         "id": "toggle1",
-        "accessibility": "@string/table_layout_7_toggle_shortcuts"
+        "tag": "Button"
     },
     {
         "file": "table_layout_8.xml",
-        "id": "menu"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_open"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_open_shortcut"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_save"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_save_shortcut"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_save_as"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_x"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_import"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_x"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_export"
-    },
-    {
-        "file": "table_layout_8.xml",
-        "accessibility": "@string/table_layout_8_export_shortcut"
+        "id": "menu",
+        "tag": "TableLayout"
     },
     {
         "file": "table_layout_8.xml",
         "id": "toggle",
-        "accessibility": "@string/table_layout_8_toggle_stretch"
+        "tag": "Button"
     },
     {
         "file": "table_layout_9.xml",
-        "id": "menu"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_open"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_open_shortcut"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save_shortcut"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save_as"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save_as_shortcut"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save_all"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_save_all_shortcut"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_import"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_export"
-    },
-    {
-        "file": "table_layout_9.xml",
-        "accessibility": "@string/table_layout_9_export_shortcut"
+        "id": "menu",
+        "tag": "TableLayout"
     },
     {
         "file": "table_layout_9.xml",
         "id": "toggle",
-        "accessibility": "@string/table_layout_9_toggle_shrink"
+        "tag": "Button"
     },
     {
         "file": "tabs1.xml",
         "id": "view1",
-        "accessibility": "@string/tabs_1_tab_1"
+        "tag": "TextView"
     },
     {
         "file": "tabs1.xml",
         "id": "view2",
-        "accessibility": "@string/tabs_1_tab_2"
+        "tag": "TextView"
     },
     {
         "file": "tabs1.xml",
         "id": "view3",
-        "accessibility": "@string/tabs_1_tab_3"
+        "tag": "TextView"
     },
     {
         "file": "tabs_right_gravity.xml",
-        "id": "tabhost"
+        "id": "tabhost",
+        "tag": "TabHost"
     },
     {
         "file": "tabs_right_gravity.xml",
-        "id": "tabs"
+        "id": "tabs",
+        "tag": "TabWidget"
     },
     {
         "file": "tabs_right_gravity.xml",
-        "id": "tabcontent"
+        "id": "tabcontent",
+        "tag": "FrameLayout"
     },
     {
         "file": "tabs_scroll.xml",
-        "id": "tabhost"
+        "id": "tabhost",
+        "tag": "TabHost"
     },
     {
         "file": "tabs_scroll.xml",
-        "id": "tabs"
+        "id": "tabs",
+        "tag": "TabWidget"
     },
     {
         "file": "tabs_scroll.xml",
-        "id": "tabcontent"
+        "id": "tabcontent",
+        "tag": "FrameLayout"
     },
     {
         "file": "tasklist_main.xml",
-        "accessibility": "@string/accessibility_query_window_instructions"
+        "id": "list",
+        "tag": "io.appium.android.apis.accessibility.TaskListView"
     },
     {
         "file": "tasklist_main.xml",
-        "id": "list"
-    },
-    {
-        "file": "tasklist_main.xml",
-        "id": "button"
+        "id": "button",
+        "tag": "ImageButton"
     },
     {
         "file": "tasklist_row.xml",
-        "id": "tasklist_label"
+        "id": "tasklist_label",
+        "tag": "TextView"
     },
     {
         "file": "tasklist_row.xml",
-        "id": "tasklist_finished"
+        "id": "tasklist_finished",
+        "tag": "CheckBox"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit"
+        "id": "edit",
+        "tag": "EditText"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit1"
+        "id": "edit1",
+        "tag": "EditText"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit1Text"
+        "id": "edit1Text",
+        "tag": "TextView"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit2"
+        "id": "edit2",
+        "tag": "EditText"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit3"
+        "id": "edit3",
+        "tag": "EditText"
     },
     {
         "file": "text_fields.xml",
-        "id": "edit3"
+        "id": "edit3",
+        "tag": "EditText"
     },
     {
         "file": "text_switcher_1.xml",
         "id": "next",
-        "accessibility": "@string/text_switcher_1_next_text"
+        "tag": "Button"
     },
     {
         "file": "text_switcher_1.xml",
-        "id": "switcher"
+        "id": "switcher",
+        "tag": "TextSwitcher"
     },
     {
         "file": "text_to_speech.xml",
         "id": "again_button",
-        "accessibility": "@string/again"
+        "tag": "Button"
     },
     {
         "file": "translucent_background.xml",
         "id": "text",
-        "accessibility": "@string/translucent_background"
+        "tag": "TextView"
     },
     {
         "file": "videoview.xml",
-        "id": "surface_view"
+        "id": "surface_view",
+        "tag": "VideoView"
     },
     {
         "file": "video_player.xml",
-        "id": "content"
+        "id": "content",
+        "tag": "view"
     },
     {
         "file": "video_player.xml",
         "id": "title",
-        "accessibility": "A title goes here"
+        "tag": "TextView"
     },
     {
         "file": "video_player.xml",
-        "id": "play"
+        "id": "play",
+        "tag": "Button"
     },
     {
         "file": "video_player.xml",
-        "id": "seekbar"
-    },
-    {
-        "file": "visibility_1.xml",
-        "accessibility": "@string/visibility_1_view_1"
+        "id": "seekbar",
+        "tag": "SeekBar"
     },
     {
         "file": "visibility_1.xml",
         "id": "victim",
-        "accessibility": "@string/visibility_1_view_2"
-    },
-    {
-        "file": "visibility_1.xml",
-        "accessibility": "@string/visibility_1_view_3"
+        "tag": "TextView"
     },
     {
         "file": "visibility_1.xml",
         "id": "vis",
-        "accessibility": "@string/visibility_1_vis"
+        "tag": "Button"
     },
     {
         "file": "visibility_1.xml",
         "id": "invis",
-        "accessibility": "@string/visibility_1_invis"
+        "tag": "Button"
     },
     {
         "file": "visibility_1.xml",
         "id": "gone",
-        "accessibility": "@string/visibility_1_gone"
-    },
-    {
-        "file": "voice_recognition.xml",
-        "accessibility": "@string/voice_recognition_prompt"
+        "tag": "Button"
     },
     {
         "file": "voice_recognition.xml",
         "id": "btn_speak",
-        "accessibility": "@string/speak_button"
+        "tag": "Button"
     },
     {
         "file": "voice_recognition.xml",
-        "accessibility": "@string/supported_languages"
+        "id": "supported_languages",
+        "tag": "Spinner"
     },
     {
         "file": "voice_recognition.xml",
-        "id": "supported_languages"
+        "id": "language_preference",
+        "tag": "TextView"
     },
     {
         "file": "voice_recognition.xml",
-        "accessibility": "@string/language_preference"
-    },
-    {
-        "file": "voice_recognition.xml",
-        "id": "language_preference"
-    },
-    {
-        "file": "voice_recognition.xml",
-        "id": "list"
+        "id": "list",
+        "tag": "ListView"
     },
     {
         "file": "wallpaper_2.xml",
-        "id": "imageview"
+        "id": "imageview",
+        "tag": "ImageView"
     },
     {
         "file": "wallpaper_2.xml",
         "id": "randomize",
-        "accessibility": "@string/randomize"
+        "tag": "Button"
     },
     {
         "file": "wallpaper_2.xml",
         "id": "setwallpaper",
-        "accessibility": "@string/set_wallpaper"
+        "tag": "Button"
     },
     {
         "file": "webview_1.xml",
-        "id": "wv1"
+        "id": "wv1",
+        "tag": "WebView"
     },
     {
         "file": "webview_2.xml",
-        "id": "wv1"
+        "id": "wv1",
+        "tag": "WebView"
     },
     {
         "file": "webview_3.xml",
         "id": "wv3",
-        "accessibility": "Open Chrome"
+        "tag": "Button"
     }
 ]

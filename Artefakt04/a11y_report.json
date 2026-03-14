@@ -1,0 +1,8 @@
+[
+    {
+        "file": "text_fields.xml",
+        "tag": "TextView",
+        "id": "edit1Text",
+        "text": "@string/edit_text_password"
+    }
+]

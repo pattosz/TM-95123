@@ -1,0 +1,3 @@
+STATUS: ZALICZONE! Twój selektor jest unikalny.
+XPath: //TextView[@android:id='action_bar_subtitle']
+Matches: 1

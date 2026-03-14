@@ -1,39 +1,55 @@
 import xml.etree.ElementTree as ET
 import glob
-import json
 import os
+import json
 
+# Funkcja do wydobywania ID i tagu z layoutów
 def mine_selectors(path):
-    result = []
+    selectors = []  # Lista do przechowywania wyników
 
-    for file in glob.glob(os.path.join(path, "**", "*.xml"), recursive=True):
+    # Przechodzimy przez wszystkie pliki XML w katalogu (rekursywnie)
+    for file in glob.glob(path + "/**/*.xml", recursive=True):
         try:
+            # Parsowanie pliku XML
             tree = ET.parse(file)
             root = tree.getroot()
+
+            # Iteracja po elementach XML
             for elem in root.iter():
-                # Pobranie wszystkich atrybutów bez namespace
-                attribs = {k.split('}')[-1]: v for k, v in elem.attrib.items()}
-                
-                res_id = attribs.get("id")
-                accessibility = attribs.get("contentDescription")
+                # Wyszukiwanie atrybutu 'id' w elemencie
+                res_id = elem.get('{http://schemas.android.com/apk/res/android}id')
+                res_tag = elem.tag  # Pobranie tagu elementu
 
-                if res_id or accessibility:
-                    element_info = {
-                        "file": os.path.basename(file),
-                    }
-                    if res_id:
-                        element_info["id"] = res_id.split("/")[-1]
-                    if accessibility:
-                        element_info["accessibility"] = accessibility
-                    result.append(element_info)
-        except ET.ParseError as e:
-            print(f"Nie można sparsować pliku {file}: {e}")
+                if res_id:  # Jeśli istnieje 'id', dodajemy dane do listy
+                    selectors.append({
+                        'file': os.path.basename(file),  # Zapisujemy tylko nazwę pliku
+                        'id': res_id.split('/')[-1],  # Pobieramy nazwę ID, nie pełną ścieżkę
+                        'tag': res_tag
+                    })
+        except ET.ParseError:
+            print(f"Błąd przy parsowaniu pliku: {file}")
 
-    with open("miner_report.json", "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=4, ensure_ascii=False)
+    return selectors
 
-    print(f"Znaleziono {len(result)} elementów. Wynik zapisany w miner_report.json")
+# Funkcja do zapisania wyników w formacie JSON
+def save_selectors(selectors, output_file):
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(selectors, f, indent=4, ensure_ascii=False)
 
-# Wywołanie funkcji
-mine_selectors("C:/TestowanieMobilne/TM-95123/Artefakt02/decompiled_apk/res/layout")
-# Zmienic sciezke
+# Główna funkcja
+def main():
+    path = "../Artefakt02/decompiled_apk/res/layout"  # Ścieżka do folderu z plikami XML
+    output_file = "miner_report.json"  # Nazwa pliku wynikowego
+
+    # Wywołanie funkcji do parsowania layoutów
+    selectors = mine_selectors(path)
+
+    # Jeśli znaleziono jakiekolwiek selektory, zapisujemy je do pliku
+    if selectors:
+        save_selectors(selectors, output_file)
+        print(f"Znaleziono {len(selectors)} selektorów. Wynik zapisano w {output_file}")
+    else:
+        print("Brak selektorów w podanym katalogu.")
+
+if __name__ == "__main__":
+    main()
