@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="FinalConsistencySuite" tests="2" failures="0"><testcase name="Identyfikacja Aplikacji" /><testcase name="Dostępność UI" /></testsuite>
