@@ -1,0 +1,11 @@
+=======================================
+     RAPORT AUTOMATYCZNEGO RYZYKA      
+=======================================
+KOŃCOWY SECURITY SCORE: 0/100
+[X] STATUS: REJECTED (Aplikacja niebezpieczna)
+
+Zidentyfikowane potrącenia punktowe:
+ * [-30] Flaga Debuggable jest AKTYWNA (High Risk)
+ * [-20] Poważna luka w com.google.android.gms (High)
+ * [-10] Średnia luka w com.squareup.okhttp (Medium)
+ * [-40] Krytyczna luka w org.apache.commons (Critical)

@@ -35,6 +35,6 @@
 
 ---
 
-**Data przeprowadzenia audytu:** [Wpisz datę, np. 23-03-2026]  
+**Data przeprowadzenia audytu:** [06-06-2026]  
 **Status końcowy:** 🟢 SYSTEM STABILNY  
-**Prowadzący test:** [Twoje Imię, Numer Studenta]
+**Prowadzący test:** [Patryk Cieślik, 95123]

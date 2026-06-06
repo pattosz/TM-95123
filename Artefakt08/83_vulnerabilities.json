@@ -1,0 +1,28 @@
+{
+    "audit_type": "Software Composition Analysis",
+    "target_file": "requirements.txt",
+    "vulnerabilities_found": 3,
+    "issues": [
+        {
+            "library": "com.google.android.gms",
+            "version": "10.0.1",
+            "severity": "HIGH",
+            "cve_id": "CVE-2021-4352",
+            "description": "Błąd weryfikacji certyfikatu"
+        },
+        {
+            "library": "com.squareup.okhttp",
+            "version": "2.7.5",
+            "severity": "MEDIUM",
+            "cve_id": "CVE-2016-2402",
+            "description": "Podatność na Man-in-the-Middle"
+        },
+        {
+            "library": "org.apache.commons",
+            "version": "1.0.0",
+            "severity": "CRITICAL",
+            "cve_id": "CVE-2015-7501",
+            "description": "Zdalne wykonanie kodu (RCE)"
+        }
+    ]
+}
